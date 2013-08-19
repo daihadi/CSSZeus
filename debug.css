@@ -1,0 +1,30 @@
+/**
+ * CSSZeus is a CSS framework providing some responsive web design tools.
+ * CSSZeus is free software and open source under GNU GPLv3 license.
+ * Copyright (C) 2013 Hadi Sadeqi
+ * see the LICENSE section of README.md delivered with library or get from http://cssze.us/resources/README.md
+ * visit us at http://cssze.us/
+ */
+
+body {
+  background-color: #AAA;
+}
+.tile-11, .tile-21, .tile-22, .tile-31, .tile-32, .tile-33, .tile-41, .tile-42, .tile-43, .tile-44,
+.tile-61, .tile-62, .tile-63, .tile-64, .tile-65, .tile-66,
+.tile-81, .tile-82, .tile-83, .tile-84, .tile-85, .tile-86, .tile-87, .tile-88,
+.tile-c1, .tile-c2, .tile-c3, .tile-c4, .tile-c5, .tile-c6,
+.tile-c7, .tile-c8, .tile-c9, .tile-ca, .tile-cb, .tile-cc,
+.tile-g1, .tile-g2, .tile-g3, .tile-g4, .tile-g5, .tile-g6, .tile-g7, .tile-g8,
+.tile-g9, .tile-ga, .tile-gb, .tile-gc, .tile-gd, .tile-ge, .tile-gf, .tile-gg {
+  background-color: #3EA;
+  margin: 10px 0;
+}
+.tilec {
+  background-color: #FEA;
+  min-height: 50px;
+  margin: -10px 10px;
+}
+.adaptor div {
+  background-color: #AEF;
+  height: 10px;
+}

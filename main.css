@@ -1,0 +1,133 @@
+/**
+ * CSSZeus is a CSS framework providing some responsive web design tools.
+ * CSSZeus is free software and open source under GNU GPLv3 license.
+ * Copyright (C) 2013 Hadi Sadeqi
+ * see the LICENSE section of README.md delivered with library or get from http://cssze.us/resources/README.md
+ * visit us at http://cssze.us/
+ */
+
+/* MODULES */
+@import url(adpimg.css);/* adaptive images (33.0 KB) */
+@import url(append.css);/* appending (35.6 KB) */
+@import url(sprite.css);/* image sprites (37.5 KB) */
+/* @import url(debug.css); /* debug (1.1 KB) */
+@import url(fluid.css) all and (max-width: 500px);/* fluid layout (2.0 KB) */
+
+/* BASICS */
+body {
+  margin: 0;
+  padding: 0;
+}
+.adaptive {
+  margin: 0 50% 0 -50%;
+  /* in some browsers the width of the inline elements will be defference between the position of the first element, and the position of the last element. with "text-align: right" the last element will be at a good position. */
+  text-align: right;
+}
+*div.adaptive {
+  /* to fix problem of "text-align: right" in ie. */
+  direction: rtl;
+}
+.adaptive .wrapper {
+  /* inline display makes wrapper to get a width equal to the width of "adaptor". */
+  display: inline;
+  position: relative;
+}
+*div.adaptive .wrapper {
+  /* use instead relative because of ie. */
+  position: absolute;
+}
+.adaptive .adaptor {
+  /* inline display makes "adaptor" to get a width equal to the width covered by its inner tags, it always stay at the largest turnpoint, smaller than browser width. */
+  display: inline;
+  /* "font-size" for this tag should be 0 to hide unwanted space between its inner tags. */
+  font-size: 1px;
+  font-size: 0.1px;
+  font-size: 0;
+}
+/* adaptor tags align in one line and when the browser width become smaller they will go to the next line, it makes turnpoint behaviour. */
+.adaptive .adaptor * {
+  display: inline-block;
+}
+/* these numbers calculated from defferences between points: 0~480(480), 480~720(240), 720~960(240), 960~1200(240), 1200~1440(240), 1440~1920(480). */
+.adaptive .adaptor a {
+  width: 480px;
+}
+.adaptive .adaptor b {
+  width: 240px;
+}
+.adaptive .tiles {
+  direction: ltr;
+  /* absolute position for "tiles", and relative position "wrapper" and also following lines caused tiles to get fitted to wrapper. */
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  /* margin for ".adaptive" and this is for creating content area centerized. */
+  margin: 0 -50% 0 50%;
+}
+.tiles {
+  /* "font-size" for this tag should be 0 to hide space between tiles. */
+  font-size: 1px;
+  font-size: 0.1px;
+  font-size: 0;
+  /* this is to reset "text-align". */
+  text-align: left;
+}
+.tilec {
+  margin: 10px;
+  /* this is to reset "font-size". */
+  font-size: 16px;
+  overflow: hidden;
+}
+/* TILES */
+.tile-11, .tile-21, .tile-22, .tile-31, .tile-32, .tile-33, .tile-41, .tile-42, .tile-43, .tile-44,
+.tile-61, .tile-62, .tile-63, .tile-64, .tile-65, .tile-66,
+.tile-81, .tile-82, .tile-83, .tile-84, .tile-85, .tile-86, .tile-87, .tile-88,
+.tile-c1, .tile-c2, .tile-c3, .tile-c4, .tile-c5, .tile-c6,
+.tile-c7, .tile-c8, .tile-c9, .tile-ca, .tile-cb, .tile-cc,
+.tile-g1, .tile-g2, .tile-g3, .tile-g4, .tile-g5, .tile-g6, .tile-g7, .tile-g8,
+.tile-g9, .tile-ga, .tile-gb, .tile-gc, .tile-gd, .tile-ge, .tile-gf, .tile-gg {
+  /* inline block display used instead float. */
+  display: inline-block;
+  vertical-align: top;
+}
+*div.tile-11, *div.tile-21, *div.tile-22, *div.tile-31, *div.tile-32, *div.tile-33, *div.tile-41, *div.tile-42, *div.tile-43, *div.tile-44,
+*div.tile-61, *div.tile-62, *div.tile-63, *div.tile-64, *div.tile-65, *div.tile-66,
+*div.tile-81, *div.tile-82, *div.tile-83, *div.tile-84, *div.tile-85, *div.tile-86, *div.tile-87, *div.tile-88,
+*div.tile-c1, *div.tile-c2, *div.tile-c3, *div.tile-c4, *div.tile-c5, *div.tile-c6,
+*div.tile-c7, *div.tile-c8, *div.tile-c9, *div.tile-ca, *div.tile-cb, *div.tile-cc,
+*div.tile-g1, *div.tile-g2, *div.tile-g3, *div.tile-g4, *div.tile-g5, *div.tile-g6, *div.tile-g7, *div.tile-g8,
+*div.tile-g9, *div.tile-ga, *div.tile-gb, *div.tile-gc, *div.tile-gd, *div.tile-ge, *div.tile-gf, *div.tile-gg {
+  /* ie7 uses inline as inline-block display. */
+  display: inline;
+}
+/* width is equal to the width of the "tile-??" devided by the width of "tiles". */
+.tile-11, .tile-22, .tile-33, .tile-44, .tile-66, .tile-88, .tile-cc, .tile-gg { width: 100%; }
+.tile-21, .tile-42, .tile-63, .tile-84, .tile-c6, .tile-g8 { width: 50%; }
+.tile-31, .tile-62, .tile-c4 { width: 33.33333333%; }
+.tile-32, .tile-64, .tile-c8 { width: 66.66666666%; }
+.tile-41, .tile-82, .tile-c3, .tile-g4 { width: 25%; }
+.tile-43, .tile-86, .tile-c9, .tile-gc { width: 75%; }
+.tile-61, .tile-c2 { width: 16.66666666%; }
+.tile-65, .tile-ca { width: 83.33333333%; }
+.tile-81, .tile-g2 { width: 12.5%; }
+.tile-83, .tile-g6 { width: 37.5%; }
+.tile-85, .tile-ga { width: 62.5%; }
+.tile-87, .tile-ge { width: 87.5%; }
+.tile-c1 { width: 8.33333333%; }
+.tile-c5 { width: 41.66666666%; }
+.tile-c7 { width: 58.33333333%; }
+.tile-cb { width: 91.66666666%; }
+.tile-g1 { width: 6.25%; }
+.tile-g3 { width: 18.75%; }
+.tile-g5 { width: 31.25%; }
+.tile-g7 { width: 43.75%; }
+.tile-g9 { width: 56.25%; }
+.tile-gb { width: 68.75%; }
+.tile-gd { width: 81.25%; }
+.tile-gf { width: 93.75%; }
+/* RESPONSIVE IMAGES */
+.rspimg img {
+  width: 100%;
+}

@@ -1,0 +1,620 @@
+/**
+ * CSSZeus is a CSS framework providing some responsive web design tools.
+ * CSSZeus is free software and open source under GNU GPLv3 license.
+ * Copyright (C) 2013 Hadi Sadeqi
+ * see the LICENSE section of README.md delivered with library or get from http://cssze.us/resources/README.md
+ * visit us at http://cssze.us/
+ */
+
+
+/* Mathematics: margin-left for the image placed within vertical sprite-x when 'w' is the width of a single vertical adaptive image is equal to -w * (x - 1) */
+
+/* sprite-1 */
+.adpimg.vertical-11.sprite-1 img, .adpimg.vertical-43.sprite-1 img, .adpimg.vertical-g9.sprite-1 img {
+  margin-left: 0;
+}
+/* sprite-2 */
+.tile-11 .adpimg.vertical-11.sprite-2 img, .tile-22 .adpimg.vertical-11.sprite-2 img, .tile-33 .adpimg.vertical-11.sprite-2 img, .tile-44 .adpimg.vertical-11.sprite-2 img, .tile-66 .adpimg.vertical-11.sprite-2 img, .tile-88 .adpimg.vertical-11.sprite-2 img, .tile-cc .adpimg.vertical-11.sprite-2 img, .tile-gg .adpimg.vertical-11.sprite-2 img,
+.tile-11 .adpimg.vertical-43.sprite-2 img, .tile-22 .adpimg.vertical-43.sprite-2 img, .tile-33 .adpimg.vertical-43.sprite-2 img, .tile-44 .adpimg.vertical-43.sprite-2 img, .tile-66 .adpimg.vertical-43.sprite-2 img, .tile-88 .adpimg.vertical-43.sprite-2 img, .tile-cc .adpimg.vertical-43.sprite-2 img, .tile-gg .adpimg.vertical-43.sprite-2 img,
+.tile-11 .adpimg.vertical-g9.sprite-2 img, .tile-22 .adpimg.vertical-g9.sprite-2 img, .tile-33 .adpimg.vertical-g9.sprite-2 img, .tile-44 .adpimg.vertical-g9.sprite-2 img, .tile-66 .adpimg.vertical-g9.sprite-2 img, .tile-88 .adpimg.vertical-g9.sprite-2 img, .tile-cc .adpimg.vertical-g9.sprite-2 img, .tile-gg .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1900px;
+}
+.tile-gf .adpimg.vertical-11.sprite-2 img,
+.tile-gf .adpimg.vertical-43.sprite-2 img,
+.tile-gf .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1780px;
+}
+.tile-cb .adpimg.vertical-11.sprite-2 img,
+.tile-cb .adpimg.vertical-43.sprite-2 img,
+.tile-cb .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1740px;
+}
+.tile-87 .adpimg.vertical-11.sprite-2 img, .tile-ge .adpimg.vertical-11.sprite-2 img,
+.tile-87 .adpimg.vertical-43.sprite-2 img, .tile-ge .adpimg.vertical-43.sprite-2 img,
+.tile-87 .adpimg.vertical-g9.sprite-2 img, .tile-ge .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1660px;
+}
+.tile-65 .adpimg.vertical-11.sprite-2 img, .tile-ca .adpimg.vertical-11.sprite-2 img,
+.tile-65 .adpimg.vertical-43.sprite-2 img, .tile-ca .adpimg.vertical-43.sprite-2 img,
+.tile-65 .adpimg.vertical-g9.sprite-2 img, .tile-ca .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1580px;
+}
+.tile-gd .adpimg.vertical-11.sprite-2 img,
+.tile-gd .adpimg.vertical-43.sprite-2 img,
+.tile-gd .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1540px;
+}
+.tile-43 .adpimg.vertical-11.sprite-2 img, .tile-86 .adpimg.vertical-11.sprite-2 img, .tile-c9 .adpimg.vertical-11.sprite-2 img, .tile-gc .adpimg.vertical-11.sprite-2 img,
+.tile-43 .adpimg.vertical-43.sprite-2 img, .tile-86 .adpimg.vertical-43.sprite-2 img, .tile-c9 .adpimg.vertical-43.sprite-2 img, .tile-gc .adpimg.vertical-43.sprite-2 img,
+.tile-43 .adpimg.vertical-g9.sprite-2 img, .tile-86 .adpimg.vertical-g9.sprite-2 img, .tile-c9 .adpimg.vertical-g9.sprite-2 img, .tile-gc .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1420px;
+}
+.tile-gb .adpimg.vertical-11.sprite-2 img,
+.tile-gb .adpimg.vertical-43.sprite-2 img,
+.tile-gb .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1300px;
+}
+.tile-32 .adpimg.vertical-11.sprite-2 img, .tile-64 .adpimg.vertical-11.sprite-2 img, .tile-c8 .adpimg.vertical-11.sprite-2 img,
+.tile-32 .adpimg.vertical-43.sprite-2 img, .tile-64 .adpimg.vertical-43.sprite-2 img, .tile-c8 .adpimg.vertical-43.sprite-2 img,
+.tile-32 .adpimg.vertical-g9.sprite-2 img, .tile-64 .adpimg.vertical-g9.sprite-2 img, .tile-c8 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1260px;
+}
+.tile-85 .adpimg.vertical-11.sprite-2 img, .tile-ga .adpimg.vertical-11.sprite-2 img,
+.tile-85 .adpimg.vertical-43.sprite-2 img, .tile-ga .adpimg.vertical-43.sprite-2 img,
+.tile-85 .adpimg.vertical-g9.sprite-2 img, .tile-ga .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1180px;
+}
+.tile-c7 .adpimg.vertical-11.sprite-2 img,
+.tile-c7 .adpimg.vertical-43.sprite-2 img,
+.tile-c7 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1100px;
+}
+.tile-g9 .adpimg.vertical-11.sprite-2 img,
+.tile-g9 .adpimg.vertical-43.sprite-2 img,
+.tile-g9 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -1060px;
+}
+.tile-21 .adpimg.vertical-11.sprite-2 img, .tile-42 .adpimg.vertical-11.sprite-2 img, .tile-63 .adpimg.vertical-11.sprite-2 img, .tile-84 .adpimg.vertical-11.sprite-2 img, .tile-c6 .adpimg.vertical-11.sprite-2 img, .tile-g8 .adpimg.vertical-11.sprite-2 img,
+.tile-21 .adpimg.vertical-43.sprite-2 img, .tile-42 .adpimg.vertical-43.sprite-2 img, .tile-63 .adpimg.vertical-43.sprite-2 img, .tile-84 .adpimg.vertical-43.sprite-2 img, .tile-c6 .adpimg.vertical-43.sprite-2 img, .tile-g8 .adpimg.vertical-43.sprite-2 img,
+.tile-21 .adpimg.vertical-g9.sprite-2 img, .tile-42 .adpimg.vertical-g9.sprite-2 img, .tile-63 .adpimg.vertical-g9.sprite-2 img, .tile-84 .adpimg.vertical-g9.sprite-2 img, .tile-c6 .adpimg.vertical-g9.sprite-2 img, .tile-g8 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -940px;
+}
+.tile-g7 .adpimg.vertical-11.sprite-2 img,
+.tile-g7 .adpimg.vertical-43.sprite-2 img,
+.tile-g7 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -820px;
+}
+.tile-c5 .adpimg.vertical-11.sprite-2 img,
+.tile-c5 .adpimg.vertical-43.sprite-2 img,
+.tile-c5 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -780px;
+}
+.tile-83 .adpimg.vertical-11.sprite-2 img, .tile-g6 .adpimg.vertical-11.sprite-2 img,
+.tile-83 .adpimg.vertical-43.sprite-2 img, .tile-g6 .adpimg.vertical-43.sprite-2 img,
+.tile-83 .adpimg.vertical-g9.sprite-2 img, .tile-g6 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -700px;
+}
+.tile-31 .adpimg.vertical-11.sprite-2 img, .tile-62 .adpimg.vertical-11.sprite-2 img, .tile-c4 .adpimg.vertical-11.sprite-2 img,
+.tile-31 .adpimg.vertical-43.sprite-2 img, .tile-62 .adpimg.vertical-43.sprite-2 img, .tile-c4 .adpimg.vertical-43.sprite-2 img,
+.tile-31 .adpimg.vertical-g9.sprite-2 img, .tile-62 .adpimg.vertical-g9.sprite-2 img, .tile-c4 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -620px;
+}
+.tile-g5 .adpimg.vertical-11.sprite-2 img,
+.tile-g5 .adpimg.vertical-43.sprite-2 img,
+.tile-g5 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -580px;
+}
+.tile-41 .adpimg.vertical-11.sprite-2 img, .tile-82 .adpimg.vertical-11.sprite-2 img, .tile-c3 .adpimg.vertical-11.sprite-2 img, .tile-g4 .adpimg.vertical-11.sprite-2 img,
+.tile-41 .adpimg.vertical-43.sprite-2 img, .tile-82 .adpimg.vertical-43.sprite-2 img, .tile-c3 .adpimg.vertical-43.sprite-2 img, .tile-g4 .adpimg.vertical-43.sprite-2 img,
+.tile-41 .adpimg.vertical-g9.sprite-2 img, .tile-82 .adpimg.vertical-g9.sprite-2 img, .tile-c3 .adpimg.vertical-g9.sprite-2 img, .tile-g4 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -460px;
+}
+.tile-g3 .adpimg.vertical-11.sprite-2 img,
+.tile-g3 .adpimg.vertical-43.sprite-2 img,
+.tile-g3 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -340px;
+}
+.tile-61 .adpimg.vertical-11.sprite-2 img, .tile-c2 .adpimg.vertical-11.sprite-2 img,
+.tile-61 .adpimg.vertical-43.sprite-2 img, .tile-c2 .adpimg.vertical-43.sprite-2 img,
+.tile-61 .adpimg.vertical-g9.sprite-2 img, .tile-c2 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -300px;
+}
+.tile-81 .adpimg.vertical-11.sprite-2 img, .tile-g2 .adpimg.vertical-11.sprite-2 img,
+.tile-81 .adpimg.vertical-43.sprite-2 img, .tile-g2 .adpimg.vertical-43.sprite-2 img,
+.tile-81 .adpimg.vertical-g9.sprite-2 img, .tile-g2 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -220px;
+}
+.tile-c1 .adpimg.vertical-11.sprite-2 img,
+.tile-c1 .adpimg.vertical-43.sprite-2 img,
+.tile-c1 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -140px;
+}
+.tile-g1 .adpimg.vertical-11.sprite-2 img,
+.tile-g1 .adpimg.vertical-43.sprite-2 img,
+.tile-g1 .adpimg.vertical-g9.sprite-2 img {
+  margin-left: -100px;
+}
+/* sprite-3 */
+.tile-11 .adpimg.vertical-11.sprite-3 img, .tile-22 .adpimg.vertical-11.sprite-3 img, .tile-33 .adpimg.vertical-11.sprite-3 img, .tile-44 .adpimg.vertical-11.sprite-3 img, .tile-66 .adpimg.vertical-11.sprite-3 img, .tile-88 .adpimg.vertical-11.sprite-3 img, .tile-cc .adpimg.vertical-11.sprite-3 img, .tile-gg .adpimg.vertical-11.sprite-3 img,
+.tile-11 .adpimg.vertical-43.sprite-3 img, .tile-22 .adpimg.vertical-43.sprite-3 img, .tile-33 .adpimg.vertical-43.sprite-3 img, .tile-44 .adpimg.vertical-43.sprite-3 img, .tile-66 .adpimg.vertical-43.sprite-3 img, .tile-88 .adpimg.vertical-43.sprite-3 img, .tile-cc .adpimg.vertical-43.sprite-3 img, .tile-gg .adpimg.vertical-43.sprite-3 img,
+.tile-11 .adpimg.vertical-g9.sprite-3 img, .tile-22 .adpimg.vertical-g9.sprite-3 img, .tile-33 .adpimg.vertical-g9.sprite-3 img, .tile-44 .adpimg.vertical-g9.sprite-3 img, .tile-66 .adpimg.vertical-g9.sprite-3 img, .tile-88 .adpimg.vertical-g9.sprite-3 img, .tile-cc .adpimg.vertical-g9.sprite-3 img, .tile-gg .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -3800px;
+}
+.tile-gf .adpimg.vertical-11.sprite-3 img,
+.tile-gf .adpimg.vertical-43.sprite-3 img,
+.tile-gf .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -3560px;
+}
+.tile-cb .adpimg.vertical-11.sprite-3 img,
+.tile-cb .adpimg.vertical-43.sprite-3 img,
+.tile-cb .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -3480px;
+}
+.tile-87 .adpimg.vertical-11.sprite-3 img, .tile-ge .adpimg.vertical-11.sprite-3 img,
+.tile-87 .adpimg.vertical-43.sprite-3 img, .tile-ge .adpimg.vertical-43.sprite-3 img,
+.tile-87 .adpimg.vertical-g9.sprite-3 img, .tile-ge .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -3320px;
+}
+.tile-65 .adpimg.vertical-11.sprite-3 img, .tile-ca .adpimg.vertical-11.sprite-3 img,
+.tile-65 .adpimg.vertical-43.sprite-3 img, .tile-ca .adpimg.vertical-43.sprite-3 img,
+.tile-65 .adpimg.vertical-g9.sprite-3 img, .tile-ca .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -3160px;
+}
+.tile-gd .adpimg.vertical-11.sprite-3 img,
+.tile-gd .adpimg.vertical-43.sprite-3 img,
+.tile-gd .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -3080px;
+}
+.tile-43 .adpimg.vertical-11.sprite-3 img, .tile-86 .adpimg.vertical-11.sprite-3 img, .tile-c9 .adpimg.vertical-11.sprite-3 img, .tile-gc .adpimg.vertical-11.sprite-3 img,
+.tile-43 .adpimg.vertical-43.sprite-3 img, .tile-86 .adpimg.vertical-43.sprite-3 img, .tile-c9 .adpimg.vertical-43.sprite-3 img, .tile-gc .adpimg.vertical-43.sprite-3 img,
+.tile-43 .adpimg.vertical-g9.sprite-3 img, .tile-86 .adpimg.vertical-g9.sprite-3 img, .tile-c9 .adpimg.vertical-g9.sprite-3 img, .tile-gc .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -2840px;
+}
+.tile-gb .adpimg.vertical-11.sprite-3 img,
+.tile-gb .adpimg.vertical-43.sprite-3 img,
+.tile-gb .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -2600px;
+}
+.tile-32 .adpimg.vertical-11.sprite-3 img, .tile-64 .adpimg.vertical-11.sprite-3 img, .tile-c8 .adpimg.vertical-11.sprite-3 img,
+.tile-32 .adpimg.vertical-43.sprite-3 img, .tile-64 .adpimg.vertical-43.sprite-3 img, .tile-c8 .adpimg.vertical-43.sprite-3 img,
+.tile-32 .adpimg.vertical-g9.sprite-3 img, .tile-64 .adpimg.vertical-g9.sprite-3 img, .tile-c8 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -2520px;
+}
+.tile-85 .adpimg.vertical-11.sprite-3 img, .tile-ga .adpimg.vertical-11.sprite-3 img,
+.tile-85 .adpimg.vertical-43.sprite-3 img, .tile-ga .adpimg.vertical-43.sprite-3 img,
+.tile-85 .adpimg.vertical-g9.sprite-3 img, .tile-ga .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -2360px;
+}
+.tile-c7 .adpimg.vertical-11.sprite-3 img,
+.tile-c7 .adpimg.vertical-43.sprite-3 img,
+.tile-c7 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -2200px;
+}
+.tile-g9 .adpimg.vertical-11.sprite-3 img,
+.tile-g9 .adpimg.vertical-43.sprite-3 img,
+.tile-g9 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -2120px;
+}
+.tile-21 .adpimg.vertical-11.sprite-3 img, .tile-42 .adpimg.vertical-11.sprite-3 img, .tile-63 .adpimg.vertical-11.sprite-3 img, .tile-84 .adpimg.vertical-11.sprite-3 img, .tile-c6 .adpimg.vertical-11.sprite-3 img, .tile-g8 .adpimg.vertical-11.sprite-3 img,
+.tile-21 .adpimg.vertical-43.sprite-3 img, .tile-42 .adpimg.vertical-43.sprite-3 img, .tile-63 .adpimg.vertical-43.sprite-3 img, .tile-84 .adpimg.vertical-43.sprite-3 img, .tile-c6 .adpimg.vertical-43.sprite-3 img, .tile-g8 .adpimg.vertical-43.sprite-3 img,
+.tile-21 .adpimg.vertical-g9.sprite-3 img, .tile-42 .adpimg.vertical-g9.sprite-3 img, .tile-63 .adpimg.vertical-g9.sprite-3 img, .tile-84 .adpimg.vertical-g9.sprite-3 img, .tile-c6 .adpimg.vertical-g9.sprite-3 img, .tile-g8 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -1880px;
+}
+.tile-g7 .adpimg.vertical-11.sprite-3 img,
+.tile-g7 .adpimg.vertical-43.sprite-3 img,
+.tile-g7 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -1640px;
+}
+.tile-c5 .adpimg.vertical-11.sprite-3 img,
+.tile-c5 .adpimg.vertical-43.sprite-3 img,
+.tile-c5 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -1560px;
+}
+.tile-83 .adpimg.vertical-11.sprite-3 img, .tile-g6 .adpimg.vertical-11.sprite-3 img,
+.tile-83 .adpimg.vertical-43.sprite-3 img, .tile-g6 .adpimg.vertical-43.sprite-3 img,
+.tile-83 .adpimg.vertical-g9.sprite-3 img, .tile-g6 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -1400px;
+}
+.tile-31 .adpimg.vertical-11.sprite-3 img, .tile-62 .adpimg.vertical-11.sprite-3 img, .tile-c4 .adpimg.vertical-11.sprite-3 img,
+.tile-31 .adpimg.vertical-43.sprite-3 img, .tile-62 .adpimg.vertical-43.sprite-3 img, .tile-c4 .adpimg.vertical-43.sprite-3 img,
+.tile-31 .adpimg.vertical-g9.sprite-3 img, .tile-62 .adpimg.vertical-g9.sprite-3 img, .tile-c4 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -1240px;
+}
+.tile-g5 .adpimg.vertical-11.sprite-3 img,
+.tile-g5 .adpimg.vertical-43.sprite-3 img,
+.tile-g5 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -1160px;
+}
+.tile-41 .adpimg.vertical-11.sprite-3 img, .tile-82 .adpimg.vertical-11.sprite-3 img, .tile-c3 .adpimg.vertical-11.sprite-3 img, .tile-g4 .adpimg.vertical-11.sprite-3 img,
+.tile-41 .adpimg.vertical-43.sprite-3 img, .tile-82 .adpimg.vertical-43.sprite-3 img, .tile-c3 .adpimg.vertical-43.sprite-3 img, .tile-g4 .adpimg.vertical-43.sprite-3 img,
+.tile-41 .adpimg.vertical-g9.sprite-3 img, .tile-82 .adpimg.vertical-g9.sprite-3 img, .tile-c3 .adpimg.vertical-g9.sprite-3 img, .tile-g4 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -920px;
+}
+.tile-g3 .adpimg.vertical-11.sprite-3 img,
+.tile-g3 .adpimg.vertical-43.sprite-3 img,
+.tile-g3 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -680px;
+}
+.tile-61 .adpimg.vertical-11.sprite-3 img, .tile-c2 .adpimg.vertical-11.sprite-3 img,
+.tile-61 .adpimg.vertical-43.sprite-3 img, .tile-c2 .adpimg.vertical-43.sprite-3 img,
+.tile-61 .adpimg.vertical-g9.sprite-3 img, .tile-c2 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -600px;
+}
+.tile-81 .adpimg.vertical-11.sprite-3 img, .tile-g2 .adpimg.vertical-11.sprite-3 img,
+.tile-81 .adpimg.vertical-43.sprite-3 img, .tile-g2 .adpimg.vertical-43.sprite-3 img,
+.tile-81 .adpimg.vertical-g9.sprite-3 img, .tile-g2 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -440px;
+}
+.tile-c1 .adpimg.vertical-11.sprite-3 img,
+.tile-c1 .adpimg.vertical-43.sprite-3 img,
+.tile-c1 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -280px;
+}
+.tile-g1 .adpimg.vertical-11.sprite-3 img,
+.tile-g1 .adpimg.vertical-43.sprite-3 img,
+.tile-g1 .adpimg.vertical-g9.sprite-3 img {
+  margin-left: -200px;
+}
+/* sprite-4 */
+.tile-11 .adpimg.vertical-11.sprite-4 img, .tile-22 .adpimg.vertical-11.sprite-4 img, .tile-33 .adpimg.vertical-11.sprite-4 img, .tile-44 .adpimg.vertical-11.sprite-4 img, .tile-66 .adpimg.vertical-11.sprite-4 img, .tile-88 .adpimg.vertical-11.sprite-4 img, .tile-cc .adpimg.vertical-11.sprite-4 img, .tile-gg .adpimg.vertical-11.sprite-4 img,
+.tile-11 .adpimg.vertical-43.sprite-4 img, .tile-22 .adpimg.vertical-43.sprite-4 img, .tile-33 .adpimg.vertical-43.sprite-4 img, .tile-44 .adpimg.vertical-43.sprite-4 img, .tile-66 .adpimg.vertical-43.sprite-4 img, .tile-88 .adpimg.vertical-43.sprite-4 img, .tile-cc .adpimg.vertical-43.sprite-4 img, .tile-gg .adpimg.vertical-43.sprite-4 img,
+.tile-11 .adpimg.vertical-g9.sprite-4 img, .tile-22 .adpimg.vertical-g9.sprite-4 img, .tile-33 .adpimg.vertical-g9.sprite-4 img, .tile-44 .adpimg.vertical-g9.sprite-4 img, .tile-66 .adpimg.vertical-g9.sprite-4 img, .tile-88 .adpimg.vertical-g9.sprite-4 img, .tile-cc .adpimg.vertical-g9.sprite-4 img, .tile-gg .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -5700px;
+}
+.tile-gf .adpimg.vertical-11.sprite-4 img,
+.tile-gf .adpimg.vertical-43.sprite-4 img,
+.tile-gf .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -5340px;
+}
+.tile-cb .adpimg.vertical-11.sprite-4 img,
+.tile-cb .adpimg.vertical-43.sprite-4 img,
+.tile-cb .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -5220px;
+}
+.tile-87 .adpimg.vertical-11.sprite-4 img, .tile-ge .adpimg.vertical-11.sprite-4 img,
+.tile-87 .adpimg.vertical-43.sprite-4 img, .tile-ge .adpimg.vertical-43.sprite-4 img,
+.tile-87 .adpimg.vertical-g9.sprite-4 img, .tile-ge .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -4980px;
+}
+.tile-65 .adpimg.vertical-11.sprite-4 img, .tile-ca .adpimg.vertical-11.sprite-4 img,
+.tile-65 .adpimg.vertical-43.sprite-4 img, .tile-ca .adpimg.vertical-43.sprite-4 img,
+.tile-65 .adpimg.vertical-g9.sprite-4 img, .tile-ca .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -4740px;
+}
+.tile-gd .adpimg.vertical-11.sprite-4 img,
+.tile-gd .adpimg.vertical-43.sprite-4 img,
+.tile-gd .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -4620px;
+}
+.tile-43 .adpimg.vertical-11.sprite-4 img, .tile-86 .adpimg.vertical-11.sprite-4 img, .tile-c9 .adpimg.vertical-11.sprite-4 img, .tile-gc .adpimg.vertical-11.sprite-4 img,
+.tile-43 .adpimg.vertical-43.sprite-4 img, .tile-86 .adpimg.vertical-43.sprite-4 img, .tile-c9 .adpimg.vertical-43.sprite-4 img, .tile-gc .adpimg.vertical-43.sprite-4 img,
+.tile-43 .adpimg.vertical-g9.sprite-4 img, .tile-86 .adpimg.vertical-g9.sprite-4 img, .tile-c9 .adpimg.vertical-g9.sprite-4 img, .tile-gc .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -4260px;
+}
+.tile-gb .adpimg.vertical-11.sprite-4 img,
+.tile-gb .adpimg.vertical-43.sprite-4 img,
+.tile-gb .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -3900px;
+}
+.tile-32 .adpimg.vertical-11.sprite-4 img, .tile-64 .adpimg.vertical-11.sprite-4 img, .tile-c8 .adpimg.vertical-11.sprite-4 img,
+.tile-32 .adpimg.vertical-43.sprite-4 img, .tile-64 .adpimg.vertical-43.sprite-4 img, .tile-c8 .adpimg.vertical-43.sprite-4 img,
+.tile-32 .adpimg.vertical-g9.sprite-4 img, .tile-64 .adpimg.vertical-g9.sprite-4 img, .tile-c8 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -3780px;
+}
+.tile-85 .adpimg.vertical-11.sprite-4 img, .tile-ga .adpimg.vertical-11.sprite-4 img,
+.tile-85 .adpimg.vertical-43.sprite-4 img, .tile-ga .adpimg.vertical-43.sprite-4 img,
+.tile-85 .adpimg.vertical-g9.sprite-4 img, .tile-ga .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -3540px;
+}
+.tile-c7 .adpimg.vertical-11.sprite-4 img,
+.tile-c7 .adpimg.vertical-43.sprite-4 img,
+.tile-c7 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -3300px;
+}
+.tile-g9 .adpimg.vertical-11.sprite-4 img,
+.tile-g9 .adpimg.vertical-43.sprite-4 img,
+.tile-g9 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -3180px;
+}
+.tile-21 .adpimg.vertical-11.sprite-4 img, .tile-42 .adpimg.vertical-11.sprite-4 img, .tile-63 .adpimg.vertical-11.sprite-4 img, .tile-84 .adpimg.vertical-11.sprite-4 img, .tile-c6 .adpimg.vertical-11.sprite-4 img, .tile-g8 .adpimg.vertical-11.sprite-4 img,
+.tile-21 .adpimg.vertical-43.sprite-4 img, .tile-42 .adpimg.vertical-43.sprite-4 img, .tile-63 .adpimg.vertical-43.sprite-4 img, .tile-84 .adpimg.vertical-43.sprite-4 img, .tile-c6 .adpimg.vertical-43.sprite-4 img, .tile-g8 .adpimg.vertical-43.sprite-4 img,
+.tile-21 .adpimg.vertical-g9.sprite-4 img, .tile-42 .adpimg.vertical-g9.sprite-4 img, .tile-63 .adpimg.vertical-g9.sprite-4 img, .tile-84 .adpimg.vertical-g9.sprite-4 img, .tile-c6 .adpimg.vertical-g9.sprite-4 img, .tile-g8 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -2820px;
+}
+.tile-g7 .adpimg.vertical-11.sprite-4 img,
+.tile-g7 .adpimg.vertical-43.sprite-4 img,
+.tile-g7 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -2460px;
+}
+.tile-c5 .adpimg.vertical-11.sprite-4 img,
+.tile-c5 .adpimg.vertical-43.sprite-4 img,
+.tile-c5 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -2340px;
+}
+.tile-83 .adpimg.vertical-11.sprite-4 img, .tile-g6 .adpimg.vertical-11.sprite-4 img,
+.tile-83 .adpimg.vertical-43.sprite-4 img, .tile-g6 .adpimg.vertical-43.sprite-4 img,
+.tile-83 .adpimg.vertical-g9.sprite-4 img, .tile-g6 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -2100px;
+}
+.tile-31 .adpimg.vertical-11.sprite-4 img, .tile-62 .adpimg.vertical-11.sprite-4 img, .tile-c4 .adpimg.vertical-11.sprite-4 img,
+.tile-31 .adpimg.vertical-43.sprite-4 img, .tile-62 .adpimg.vertical-43.sprite-4 img, .tile-c4 .adpimg.vertical-43.sprite-4 img,
+.tile-31 .adpimg.vertical-g9.sprite-4 img, .tile-62 .adpimg.vertical-g9.sprite-4 img, .tile-c4 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -1860px;
+}
+.tile-g5 .adpimg.vertical-11.sprite-4 img,
+.tile-g5 .adpimg.vertical-43.sprite-4 img,
+.tile-g5 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -1740px;
+}
+.tile-41 .adpimg.vertical-11.sprite-4 img, .tile-82 .adpimg.vertical-11.sprite-4 img, .tile-c3 .adpimg.vertical-11.sprite-4 img, .tile-g4 .adpimg.vertical-11.sprite-4 img,
+.tile-41 .adpimg.vertical-43.sprite-4 img, .tile-82 .adpimg.vertical-43.sprite-4 img, .tile-c3 .adpimg.vertical-43.sprite-4 img, .tile-g4 .adpimg.vertical-43.sprite-4 img,
+.tile-41 .adpimg.vertical-g9.sprite-4 img, .tile-82 .adpimg.vertical-g9.sprite-4 img, .tile-c3 .adpimg.vertical-g9.sprite-4 img, .tile-g4 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -1320px;
+}
+.tile-g3 .adpimg.vertical-11.sprite-4 img,
+.tile-g3 .adpimg.vertical-43.sprite-4 img,
+.tile-g3 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -1020px;
+}
+.tile-61 .adpimg.vertical-11.sprite-4 img, .tile-c2 .adpimg.vertical-11.sprite-4 img,
+.tile-61 .adpimg.vertical-43.sprite-4 img, .tile-c2 .adpimg.vertical-43.sprite-4 img,
+.tile-61 .adpimg.vertical-g9.sprite-4 img, .tile-c2 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -900px;
+}
+.tile-81 .adpimg.vertical-11.sprite-4 img, .tile-g2 .adpimg.vertical-11.sprite-4 img,
+.tile-81 .adpimg.vertical-43.sprite-4 img, .tile-g2 .adpimg.vertical-43.sprite-4 img,
+.tile-81 .adpimg.vertical-g9.sprite-4 img, .tile-g2 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -660px;
+}
+.tile-c1 .adpimg.vertical-11.sprite-4 img,
+.tile-c1 .adpimg.vertical-43.sprite-4 img,
+.tile-c1 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -420px;
+}
+.tile-g1 .adpimg.vertical-11.sprite-4 img,
+.tile-g1 .adpimg.vertical-43.sprite-4 img,
+.tile-g1 .adpimg.vertical-g9.sprite-4 img {
+  margin-left: -300px;
+}
+/* sprite-5 */
+.tile-11 .adpimg.vertical-11.sprite-5 img, .tile-22 .adpimg.vertical-11.sprite-5 img, .tile-33 .adpimg.vertical-11.sprite-5 img, .tile-44 .adpimg.vertical-11.sprite-5 img, .tile-66 .adpimg.vertical-11.sprite-5 img, .tile-88 .adpimg.vertical-11.sprite-5 img, .tile-cc .adpimg.vertical-11.sprite-5 img, .tile-gg .adpimg.vertical-11.sprite-5 img,
+.tile-11 .adpimg.vertical-43.sprite-5 img, .tile-22 .adpimg.vertical-43.sprite-5 img, .tile-33 .adpimg.vertical-43.sprite-5 img, .tile-44 .adpimg.vertical-43.sprite-5 img, .tile-66 .adpimg.vertical-43.sprite-5 img, .tile-88 .adpimg.vertical-43.sprite-5 img, .tile-cc .adpimg.vertical-43.sprite-5 img, .tile-gg .adpimg.vertical-43.sprite-5 img,
+.tile-11 .adpimg.vertical-g9.sprite-5 img, .tile-22 .adpimg.vertical-g9.sprite-5 img, .tile-33 .adpimg.vertical-g9.sprite-5 img, .tile-44 .adpimg.vertical-g9.sprite-5 img, .tile-66 .adpimg.vertical-g9.sprite-5 img, .tile-88 .adpimg.vertical-g9.sprite-5 img, .tile-cc .adpimg.vertical-g9.sprite-5 img, .tile-gg .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -7600px;
+}
+.tile-gf .adpimg.vertical-11.sprite-5 img,
+.tile-gf .adpimg.vertical-43.sprite-5 img,
+.tile-gf .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -7120px;
+}
+.tile-cb .adpimg.vertical-11.sprite-5 img,
+.tile-cb .adpimg.vertical-43.sprite-5 img,
+.tile-cb .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -6960px;
+}
+.tile-87 .adpimg.vertical-11.sprite-5 img, .tile-ge .adpimg.vertical-11.sprite-5 img,
+.tile-87 .adpimg.vertical-43.sprite-5 img, .tile-ge .adpimg.vertical-43.sprite-5 img,
+.tile-87 .adpimg.vertical-g9.sprite-5 img, .tile-ge .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -6640px;
+}
+.tile-65 .adpimg.vertical-11.sprite-5 img, .tile-ca .adpimg.vertical-11.sprite-5 img,
+.tile-65 .adpimg.vertical-43.sprite-5 img, .tile-ca .adpimg.vertical-43.sprite-5 img,
+.tile-65 .adpimg.vertical-g9.sprite-5 img, .tile-ca .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -6320px;
+}
+.tile-gd .adpimg.vertical-11.sprite-5 img,
+.tile-gd .adpimg.vertical-43.sprite-5 img,
+.tile-gd .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -6160px;
+}
+.tile-43 .adpimg.vertical-11.sprite-5 img, .tile-86 .adpimg.vertical-11.sprite-5 img, .tile-c9 .adpimg.vertical-11.sprite-5 img, .tile-gc .adpimg.vertical-11.sprite-5 img,
+.tile-43 .adpimg.vertical-43.sprite-5 img, .tile-86 .adpimg.vertical-43.sprite-5 img, .tile-c9 .adpimg.vertical-43.sprite-5 img, .tile-gc .adpimg.vertical-43.sprite-5 img,
+.tile-43 .adpimg.vertical-g9.sprite-5 img, .tile-86 .adpimg.vertical-g9.sprite-5 img, .tile-c9 .adpimg.vertical-g9.sprite-5 img, .tile-gc .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -5680px;
+}
+.tile-gb .adpimg.vertical-11.sprite-5 img,
+.tile-gb .adpimg.vertical-43.sprite-5 img,
+.tile-gb .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -5200px;
+}
+.tile-32 .adpimg.vertical-11.sprite-5 img, .tile-64 .adpimg.vertical-11.sprite-5 img, .tile-c8 .adpimg.vertical-11.sprite-5 img,
+.tile-32 .adpimg.vertical-43.sprite-5 img, .tile-64 .adpimg.vertical-43.sprite-5 img, .tile-c8 .adpimg.vertical-43.sprite-5 img,
+.tile-32 .adpimg.vertical-g9.sprite-5 img, .tile-64 .adpimg.vertical-g9.sprite-5 img, .tile-c8 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -5040px;
+}
+.tile-85 .adpimg.vertical-11.sprite-5 img, .tile-ga .adpimg.vertical-11.sprite-5 img,
+.tile-85 .adpimg.vertical-43.sprite-5 img, .tile-ga .adpimg.vertical-43.sprite-5 img,
+.tile-85 .adpimg.vertical-g9.sprite-5 img, .tile-ga .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -4720px;
+}
+.tile-c7 .adpimg.vertical-11.sprite-5 img,
+.tile-c7 .adpimg.vertical-43.sprite-5 img,
+.tile-c7 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -4400px;
+}
+.tile-g9 .adpimg.vertical-11.sprite-5 img,
+.tile-g9 .adpimg.vertical-43.sprite-5 img,
+.tile-g9 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -4240px;
+}
+.tile-21 .adpimg.vertical-11.sprite-5 img, .tile-42 .adpimg.vertical-11.sprite-5 img, .tile-63 .adpimg.vertical-11.sprite-5 img, .tile-84 .adpimg.vertical-11.sprite-5 img, .tile-c6 .adpimg.vertical-11.sprite-5 img, .tile-g8 .adpimg.vertical-11.sprite-5 img,
+.tile-21 .adpimg.vertical-43.sprite-5 img, .tile-42 .adpimg.vertical-43.sprite-5 img, .tile-63 .adpimg.vertical-43.sprite-5 img, .tile-84 .adpimg.vertical-43.sprite-5 img, .tile-c6 .adpimg.vertical-43.sprite-5 img, .tile-g8 .adpimg.vertical-43.sprite-5 img,
+.tile-21 .adpimg.vertical-g9.sprite-5 img, .tile-42 .adpimg.vertical-g9.sprite-5 img, .tile-63 .adpimg.vertical-g9.sprite-5 img, .tile-84 .adpimg.vertical-g9.sprite-5 img, .tile-c6 .adpimg.vertical-g9.sprite-5 img, .tile-g8 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -3760px;
+}
+.tile-g7 .adpimg.vertical-11.sprite-5 img,
+.tile-g7 .adpimg.vertical-43.sprite-5 img,
+.tile-g7 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -3280px;
+}
+.tile-c5 .adpimg.vertical-11.sprite-5 img,
+.tile-c5 .adpimg.vertical-43.sprite-5 img,
+.tile-c5 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -3120px;
+}
+.tile-83 .adpimg.vertical-11.sprite-5 img, .tile-g6 .adpimg.vertical-11.sprite-5 img,
+.tile-83 .adpimg.vertical-43.sprite-5 img, .tile-g6 .adpimg.vertical-43.sprite-5 img,
+.tile-83 .adpimg.vertical-g9.sprite-5 img, .tile-g6 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -2800px;
+}
+.tile-31 .adpimg.vertical-11.sprite-5 img, .tile-62 .adpimg.vertical-11.sprite-5 img, .tile-c4 .adpimg.vertical-11.sprite-5 img,
+.tile-31 .adpimg.vertical-43.sprite-5 img, .tile-62 .adpimg.vertical-43.sprite-5 img, .tile-c4 .adpimg.vertical-43.sprite-5 img,
+.tile-31 .adpimg.vertical-g9.sprite-5 img, .tile-62 .adpimg.vertical-g9.sprite-5 img, .tile-c4 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -2480px;
+}
+.tile-g5 .adpimg.vertical-11.sprite-5 img,
+.tile-g5 .adpimg.vertical-43.sprite-5 img,
+.tile-g5 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -2320px;
+}
+.tile-41 .adpimg.vertical-11.sprite-5 img, .tile-82 .adpimg.vertical-11.sprite-5 img, .tile-c3 .adpimg.vertical-11.sprite-5 img, .tile-g4 .adpimg.vertical-11.sprite-5 img,
+.tile-41 .adpimg.vertical-43.sprite-5 img, .tile-82 .adpimg.vertical-43.sprite-5 img, .tile-c3 .adpimg.vertical-43.sprite-5 img, .tile-g4 .adpimg.vertical-43.sprite-5 img,
+.tile-41 .adpimg.vertical-g9.sprite-5 img, .tile-82 .adpimg.vertical-g9.sprite-5 img, .tile-c3 .adpimg.vertical-g9.sprite-5 img, .tile-g4 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -1840px;
+}
+.tile-g3 .adpimg.vertical-11.sprite-5 img,
+.tile-g3 .adpimg.vertical-43.sprite-5 img,
+.tile-g3 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -1360px;
+}
+.tile-61 .adpimg.vertical-11.sprite-5 img, .tile-c2 .adpimg.vertical-11.sprite-5 img,
+.tile-61 .adpimg.vertical-43.sprite-5 img, .tile-c2 .adpimg.vertical-43.sprite-5 img,
+.tile-61 .adpimg.vertical-g9.sprite-5 img, .tile-c2 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -1200px;
+}
+.tile-81 .adpimg.vertical-11.sprite-5 img, .tile-g2 .adpimg.vertical-11.sprite-5 img,
+.tile-81 .adpimg.vertical-43.sprite-5 img, .tile-g2 .adpimg.vertical-43.sprite-5 img,
+.tile-81 .adpimg.vertical-g9.sprite-5 img, .tile-g2 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -880px;
+}
+.tile-c1 .adpimg.vertical-11.sprite-5 img,
+.tile-c1 .adpimg.vertical-43.sprite-5 img,
+.tile-c1 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -560px;
+}
+.tile-g1 .adpimg.vertical-11.sprite-5 img,
+.tile-g1 .adpimg.vertical-43.sprite-5 img,
+.tile-g1 .adpimg.vertical-g9.sprite-5 img {
+  margin-left: -400px;
+}
+/* sprite-6 */
+.tile-11 .adpimg.vertical-11.sprite-6 img, .tile-22 .adpimg.vertical-11.sprite-6 img, .tile-33 .adpimg.vertical-11.sprite-6 img, .tile-44 .adpimg.vertical-11.sprite-6 img, .tile-66 .adpimg.vertical-11.sprite-6 img, .tile-88 .adpimg.vertical-11.sprite-6 img, .tile-cc .adpimg.vertical-11.sprite-6 img, .tile-gg .adpimg.vertical-11.sprite-6 img,
+.tile-11 .adpimg.vertical-43.sprite-6 img, .tile-22 .adpimg.vertical-43.sprite-6 img, .tile-33 .adpimg.vertical-43.sprite-6 img, .tile-44 .adpimg.vertical-43.sprite-6 img, .tile-66 .adpimg.vertical-43.sprite-6 img, .tile-88 .adpimg.vertical-43.sprite-6 img, .tile-cc .adpimg.vertical-43.sprite-6 img, .tile-gg .adpimg.vertical-43.sprite-6 img,
+.tile-11 .adpimg.vertical-g9.sprite-6 img, .tile-22 .adpimg.vertical-g9.sprite-6 img, .tile-33 .adpimg.vertical-g9.sprite-6 img, .tile-44 .adpimg.vertical-g9.sprite-6 img, .tile-66 .adpimg.vertical-g9.sprite-6 img, .tile-88 .adpimg.vertical-g9.sprite-6 img, .tile-cc .adpimg.vertical-g9.sprite-6 img, .tile-gg .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -9500px;
+}
+.tile-gf .adpimg.vertical-11.sprite-6 img,
+.tile-gf .adpimg.vertical-43.sprite-6 img,
+.tile-gf .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -8900px;
+}
+.tile-cb .adpimg.vertical-11.sprite-6 img,
+.tile-cb .adpimg.vertical-43.sprite-6 img,
+.tile-cb .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -8700px;
+}
+.tile-87 .adpimg.vertical-11.sprite-6 img, .tile-ge .adpimg.vertical-11.sprite-6 img,
+.tile-87 .adpimg.vertical-43.sprite-6 img, .tile-ge .adpimg.vertical-43.sprite-6 img,
+.tile-87 .adpimg.vertical-g9.sprite-6 img, .tile-ge .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -8300px;
+}
+.tile-65 .adpimg.vertical-11.sprite-6 img, .tile-ca .adpimg.vertical-11.sprite-6 img,
+.tile-65 .adpimg.vertical-43.sprite-6 img, .tile-ca .adpimg.vertical-43.sprite-6 img,
+.tile-65 .adpimg.vertical-g9.sprite-6 img, .tile-ca .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -7900px;
+}
+.tile-gd .adpimg.vertical-11.sprite-6 img,
+.tile-gd .adpimg.vertical-43.sprite-6 img,
+.tile-gd .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -7700px;
+}
+.tile-43 .adpimg.vertical-11.sprite-6 img, .tile-86 .adpimg.vertical-11.sprite-6 img, .tile-c9 .adpimg.vertical-11.sprite-6 img, .tile-gc .adpimg.vertical-11.sprite-6 img,
+.tile-43 .adpimg.vertical-43.sprite-6 img, .tile-86 .adpimg.vertical-43.sprite-6 img, .tile-c9 .adpimg.vertical-43.sprite-6 img, .tile-gc .adpimg.vertical-43.sprite-6 img,
+.tile-43 .adpimg.vertical-g9.sprite-6 img, .tile-86 .adpimg.vertical-g9.sprite-6 img, .tile-c9 .adpimg.vertical-g9.sprite-6 img, .tile-gc .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -7100px;
+}
+.tile-gb .adpimg.vertical-11.sprite-6 img,
+.tile-gb .adpimg.vertical-43.sprite-6 img,
+.tile-gb .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -6500px;
+}
+.tile-32 .adpimg.vertical-11.sprite-6 img, .tile-64 .adpimg.vertical-11.sprite-6 img, .tile-c8 .adpimg.vertical-11.sprite-6 img,
+.tile-32 .adpimg.vertical-43.sprite-6 img, .tile-64 .adpimg.vertical-43.sprite-6 img, .tile-c8 .adpimg.vertical-43.sprite-6 img,
+.tile-32 .adpimg.vertical-g9.sprite-6 img, .tile-64 .adpimg.vertical-g9.sprite-6 img, .tile-c8 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -6300px;
+}
+.tile-85 .adpimg.vertical-11.sprite-6 img, .tile-ga .adpimg.vertical-11.sprite-6 img,
+.tile-85 .adpimg.vertical-43.sprite-6 img, .tile-ga .adpimg.vertical-43.sprite-6 img,
+.tile-85 .adpimg.vertical-g9.sprite-6 img, .tile-ga .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -5900px;
+}
+.tile-c7 .adpimg.vertical-11.sprite-6 img,
+.tile-c7 .adpimg.vertical-43.sprite-6 img,
+.tile-c7 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -5500px;
+}
+.tile-g9 .adpimg.vertical-11.sprite-6 img,
+.tile-g9 .adpimg.vertical-43.sprite-6 img,
+.tile-g9 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -5300px;
+}
+.tile-21 .adpimg.vertical-11.sprite-6 img, .tile-42 .adpimg.vertical-11.sprite-6 img, .tile-63 .adpimg.vertical-11.sprite-6 img, .tile-84 .adpimg.vertical-11.sprite-6 img, .tile-c6 .adpimg.vertical-11.sprite-6 img, .tile-g8 .adpimg.vertical-11.sprite-6 img,
+.tile-21 .adpimg.vertical-43.sprite-6 img, .tile-42 .adpimg.vertical-43.sprite-6 img, .tile-63 .adpimg.vertical-43.sprite-6 img, .tile-84 .adpimg.vertical-43.sprite-6 img, .tile-c6 .adpimg.vertical-43.sprite-6 img, .tile-g8 .adpimg.vertical-43.sprite-6 img,
+.tile-21 .adpimg.vertical-g9.sprite-6 img, .tile-42 .adpimg.vertical-g9.sprite-6 img, .tile-63 .adpimg.vertical-g9.sprite-6 img, .tile-84 .adpimg.vertical-g9.sprite-6 img, .tile-c6 .adpimg.vertical-g9.sprite-6 img, .tile-g8 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -4700px;
+}
+.tile-g7 .adpimg.vertical-11.sprite-6 img,
+.tile-g7 .adpimg.vertical-43.sprite-6 img,
+.tile-g7 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -4100px;
+}
+.tile-c5 .adpimg.vertical-11.sprite-6 img,
+.tile-c5 .adpimg.vertical-43.sprite-6 img,
+.tile-c5 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -3900px;
+}
+.tile-83 .adpimg.vertical-11.sprite-6 img, .tile-g6 .adpimg.vertical-11.sprite-6 img,
+.tile-83 .adpimg.vertical-43.sprite-6 img, .tile-g6 .adpimg.vertical-43.sprite-6 img,
+.tile-83 .adpimg.vertical-g9.sprite-6 img, .tile-g6 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -3500px;
+}
+.tile-31 .adpimg.vertical-11.sprite-6 img, .tile-62 .adpimg.vertical-11.sprite-6 img, .tile-c4 .adpimg.vertical-11.sprite-6 img,
+.tile-31 .adpimg.vertical-43.sprite-6 img, .tile-62 .adpimg.vertical-43.sprite-6 img, .tile-c4 .adpimg.vertical-43.sprite-6 img,
+.tile-31 .adpimg.vertical-g9.sprite-6 img, .tile-62 .adpimg.vertical-g9.sprite-6 img, .tile-c4 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -3100px;
+}
+.tile-g5 .adpimg.vertical-11.sprite-6 img,
+.tile-g5 .adpimg.vertical-43.sprite-6 img,
+.tile-g5 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -2900px;
+}
+.tile-41 .adpimg.vertical-11.sprite-6 img, .tile-82 .adpimg.vertical-11.sprite-6 img, .tile-c3 .adpimg.vertical-11.sprite-6 img, .tile-g4 .adpimg.vertical-11.sprite-6 img,
+.tile-41 .adpimg.vertical-43.sprite-6 img, .tile-82 .adpimg.vertical-43.sprite-6 img, .tile-c3 .adpimg.vertical-43.sprite-6 img, .tile-g4 .adpimg.vertical-43.sprite-6 img,
+.tile-41 .adpimg.vertical-g9.sprite-6 img, .tile-82 .adpimg.vertical-g9.sprite-6 img, .tile-c3 .adpimg.vertical-g9.sprite-6 img, .tile-g4 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -2300px;
+}
+.tile-g3 .adpimg.vertical-11.sprite-6 img,
+.tile-g3 .adpimg.vertical-43.sprite-6 img,
+.tile-g3 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -1700px;
+}
+.tile-61 .adpimg.vertical-11.sprite-6 img, .tile-c2 .adpimg.vertical-11.sprite-6 img,
+.tile-61 .adpimg.vertical-43.sprite-6 img, .tile-c2 .adpimg.vertical-43.sprite-6 img,
+.tile-61 .adpimg.vertical-g9.sprite-6 img, .tile-c2 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -1500px;
+}
+.tile-81 .adpimg.vertical-11.sprite-6 img, .tile-g2 .adpimg.vertical-11.sprite-6 img,
+.tile-81 .adpimg.vertical-43.sprite-6 img, .tile-g2 .adpimg.vertical-43.sprite-6 img,
+.tile-81 .adpimg.vertical-g9.sprite-6 img, .tile-g2 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -1100px;
+}
+.tile-c1 .adpimg.vertical-11.sprite-6 img,
+.tile-c1 .adpimg.vertical-43.sprite-6 img,
+.tile-c1 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -700px;
+}
+.tile-g1 .adpimg.vertical-11.sprite-6 img,
+.tile-g1 .adpimg.vertical-43.sprite-6 img,
+.tile-g1 .adpimg.vertical-g9.sprite-6 img {
+  margin-left: -500px;
+}

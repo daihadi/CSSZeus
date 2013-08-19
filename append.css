@@ -1,0 +1,538 @@
+/**
+ * CSSZeus is a CSS framework providing some responsive web design tools.
+ * CSSZeus is free software and open source under GNU GPLv3 license.
+ * Copyright (C) 2013 Hadi Sadeqi
+ * see the LICENSE section of README.md delivered with library or get from http://cssze.us/resources/README.md
+ * visit us at http://cssze.us/
+ */
+
+/* the width is equal to the width of the inner "tile-??" devided by the width of the outer "tile-??". */
+/* the order of these lines is very important; because the smaller outer tag should come after the bigger outer tag to override. */
+.tile-11 .tile-21, .tile-22 .tile-21, .tile-33 .tile-21, .tile-44 .tile-21, .tile-66 .tile-21, .tile-88 .tile-21, .tile-cc .tile-21, .tile-gg .tile-21 { width: 50%; }
+.tile-gf .tile-21 { width: 53.33333333%; }
+.tile-cb .tile-21 { width: 54.54545455%; }
+.tile-87 .tile-21, .tile-ge .tile-21 { width: 57.14285714%; }
+.tile-65 .tile-21, .tile-ca .tile-21 { width: 60%; }
+.tile-gd .tile-21 { width: 61.53846154%; }
+.tile-43 .tile-21, .tile-86 .tile-21, .tile-c9 .tile-21, .tile-gc .tile-21 { width: 66.66666667%; }
+.tile-gb .tile-21 { width: 72.72727273%; }
+.tile-32 .tile-21, .tile-64 .tile-21, .tile-c8 .tile-21 { width: 75%; }
+.tile-85 .tile-21, .tile-ga .tile-21 { width: 80%; }
+.tile-c7 .tile-21 { width: 85.71428571%; }
+.tile-g9 .tile-21 { width: 88.88888889%; }
+.tile-11 .tile-31, .tile-22 .tile-31, .tile-33 .tile-31, .tile-44 .tile-31, .tile-66 .tile-31, .tile-88 .tile-31, .tile-cc .tile-31, .tile-gg .tile-31 { width: 33.33333333%; }
+.tile-gf .tile-31 { width: 35.55555556%; }
+.tile-cb .tile-31 { width: 36.36363636%; }
+.tile-87 .tile-31, .tile-ge .tile-31 { width: 38.0952381%; }
+.tile-65 .tile-31, .tile-ca .tile-31 { width: 40%; }
+.tile-gd .tile-31 { width: 41.02564103%; }
+.tile-43 .tile-31, .tile-86 .tile-31, .tile-c9 .tile-31, .tile-gc .tile-31 { width: 44.44444444%; }
+.tile-gb .tile-31 { width: 48.48484848%; }
+.tile-32 .tile-31, .tile-64 .tile-31, .tile-c8 .tile-31 { width: 50%; }
+.tile-85 .tile-31, .tile-ga .tile-31 { width: 53.33333333%; }
+.tile-c7 .tile-31 { width: 57.14285714%; }
+.tile-g9 .tile-31 { width: 59.25925926%; }
+.tile-21 .tile-31, .tile-42 .tile-31, .tile-63 .tile-31, .tile-84 .tile-31, .tile-c6 .tile-31, .tile-g8 .tile-31 { width: 66.66666667%; }
+.tile-g7 .tile-31 { width: 76.19047619%; }
+.tile-c5 .tile-31 { width: 80%; }
+.tile-83 .tile-31, .tile-g6 .tile-31 { width: 88.88888889%; }
+.tile-11 .tile-32, .tile-22 .tile-32, .tile-33 .tile-32, .tile-44 .tile-32, .tile-66 .tile-32, .tile-88 .tile-32, .tile-cc .tile-32, .tile-gg .tile-32 { width: 66.66666667%; }
+.tile-gf .tile-32 { width: 71.11111111%; }
+.tile-cb .tile-32 { width: 72.72727273%; }
+.tile-87 .tile-32, .tile-ge .tile-32 { width: 76.19047619%; }
+.tile-65 .tile-32, .tile-ca .tile-32 { width: 80%; }
+.tile-gd .tile-32 { width: 82.05128205%; }
+.tile-43 .tile-32, .tile-86 .tile-32, .tile-c9 .tile-32, .tile-gc .tile-32 { width: 88.88888889%; }
+.tile-gb .tile-32 { width: 96.96969697%; }
+.tile-11 .tile-41, .tile-22 .tile-41, .tile-33 .tile-41, .tile-44 .tile-41, .tile-66 .tile-41, .tile-88 .tile-41, .tile-cc .tile-41, .tile-gg .tile-41 { width: 25%; }
+.tile-gf .tile-41 { width: 26.66666667%; }
+.tile-cb .tile-41 { width: 27.27272727%; }
+.tile-87 .tile-41, .tile-ge .tile-41 { width: 28.57142857%; }
+.tile-65 .tile-41, .tile-ca .tile-41 { width: 30%; }
+.tile-gd .tile-41 { width: 30.76923077%; }
+.tile-43 .tile-41, .tile-86 .tile-41, .tile-c9 .tile-41, .tile-gc .tile-41 { width: 33.33333333%; }
+.tile-gb .tile-41 { width: 36.36363636%; }
+.tile-32 .tile-41, .tile-64 .tile-41, .tile-c8 .tile-41 { width: 37.5%; }
+.tile-85 .tile-41, .tile-ga .tile-41 { width: 40%; }
+.tile-c7 .tile-41 { width: 42.85714286%; }
+.tile-g9 .tile-41 { width: 44.44444444%; }
+.tile-21 .tile-41, .tile-42 .tile-41, .tile-63 .tile-41, .tile-84 .tile-41, .tile-c6 .tile-41, .tile-g8 .tile-41 { width: 50%; }
+.tile-g7 .tile-41 { width: 57.14285714%; }
+.tile-c5 .tile-41 { width: 60%; }
+.tile-83 .tile-41, .tile-g6 .tile-41 { width: 66.66666667%; }
+.tile-31 .tile-41, .tile-62 .tile-41, .tile-c4 .tile-41 { width: 75%; }
+.tile-g5 .tile-41 { width: 80%; }
+.tile-11 .tile-42, .tile-22 .tile-42, .tile-33 .tile-42, .tile-44 .tile-42, .tile-66 .tile-42, .tile-88 .tile-42, .tile-cc .tile-42, .tile-gg .tile-42 { width: 50%; }
+.tile-gf .tile-42 { width: 53.33333333%; }
+.tile-cb .tile-42 { width: 54.54545455%; }
+.tile-87 .tile-42, .tile-ge .tile-42 { width: 57.14285714%; }
+.tile-65 .tile-42, .tile-ca .tile-42 { width: 60%; }
+.tile-gd .tile-42 { width: 61.53846154%; }
+.tile-43 .tile-42, .tile-86 .tile-42, .tile-c9 .tile-42, .tile-gc .tile-42 { width: 66.66666667%; }
+.tile-gb .tile-42 { width: 72.72727273%; }
+.tile-32 .tile-42, .tile-64 .tile-42, .tile-c8 .tile-42 { width: 75%; }
+.tile-85 .tile-42, .tile-ga .tile-42 { width: 80%; }
+.tile-c7 .tile-42 { width: 85.71428571%; }
+.tile-g9 .tile-42 { width: 88.88888889%; }
+.tile-11 .tile-43, .tile-22 .tile-43, .tile-33 .tile-43, .tile-44 .tile-43, .tile-66 .tile-43, .tile-88 .tile-43, .tile-cc .tile-43, .tile-gg .tile-43 { width: 75%; }
+.tile-gf .tile-43 { width: 80%; }
+.tile-cb .tile-43 { width: 81.81818182%; }
+.tile-87 .tile-43, .tile-ge .tile-43 { width: 85.71428571%; }
+.tile-65 .tile-43, .tile-ca .tile-43 { width: 90%; }
+.tile-gd .tile-43 { width: 92.30769231%; }
+.tile-11 .tile-61, .tile-22 .tile-61, .tile-33 .tile-61, .tile-44 .tile-61, .tile-66 .tile-61, .tile-88 .tile-61, .tile-cc .tile-61, .tile-gg .tile-61 { width: 16.66666667%; }
+.tile-gf .tile-61 { width: 17.77777778%; }
+.tile-cb .tile-61 { width: 18.18181818%; }
+.tile-87 .tile-61, .tile-ge .tile-61 { width: 19.04761905%; }
+.tile-65 .tile-61, .tile-ca .tile-61 { width: 20%; }
+.tile-gd .tile-61 { width: 20.51282051%; }
+.tile-43 .tile-61, .tile-86 .tile-61, .tile-c9 .tile-61, .tile-gc .tile-61 { width: 22.22222222%; }
+.tile-gb .tile-61 { width: 24.24242424%; }
+.tile-32 .tile-61, .tile-64 .tile-61, .tile-c8 .tile-61 { width: 25%; }
+.tile-85 .tile-61, .tile-ga .tile-61 { width: 26.66666667%; }
+.tile-c7 .tile-61 { width: 28.57142857%; }
+.tile-g9 .tile-61 { width: 29.62962963%; }
+.tile-21 .tile-61, .tile-42 .tile-61, .tile-63 .tile-61, .tile-84 .tile-61, .tile-c6 .tile-61, .tile-g8 .tile-61 { width: 33.33333333%; }
+.tile-g7 .tile-61 { width: 38.0952381%; }
+.tile-c5 .tile-61 { width: 40%; }
+.tile-83 .tile-61, .tile-g6 .tile-61 { width: 44.44444444%; }
+.tile-31 .tile-61, .tile-62 .tile-61, .tile-c4 .tile-61 { width: 50%; }
+.tile-g5 .tile-61 { width: 53.33333333%; }
+.tile-41 .tile-61, .tile-82 .tile-61, .tile-c3 .tile-61, .tile-g4 .tile-61 { width: 66.66666667%; }
+.tile-g3 .tile-61 { width: 88.88888889%; }
+.tile-11 .tile-62, .tile-22 .tile-62, .tile-33 .tile-62, .tile-44 .tile-62, .tile-66 .tile-62, .tile-88 .tile-62, .tile-cc .tile-62, .tile-gg .tile-62 { width: 33.33333333%; }
+.tile-gf .tile-62 { width: 35.55555556%; }
+.tile-cb .tile-62 { width: 36.36363636%; }
+.tile-87 .tile-62, .tile-ge .tile-62 { width: 38.0952381%; }
+.tile-65 .tile-62, .tile-ca .tile-62 { width: 40%; }
+.tile-gd .tile-62 { width: 41.02564103%; }
+.tile-43 .tile-62, .tile-86 .tile-62, .tile-c9 .tile-62, .tile-gc .tile-62 { width: 44.44444444%; }
+.tile-gb .tile-62 { width: 48.48484848%; }
+.tile-32 .tile-62, .tile-64 .tile-62, .tile-c8 .tile-62 { width: 50%; }
+.tile-85 .tile-62, .tile-ga .tile-62 { width: 53.33333333%; }
+.tile-c7 .tile-62 { width: 57.14285714%; }
+.tile-g9 .tile-62 { width: 59.25925926%; }
+.tile-21 .tile-62, .tile-42 .tile-62, .tile-63 .tile-62, .tile-84 .tile-62, .tile-c6 .tile-62, .tile-g8 .tile-62 { width: 66.66666667%; }
+.tile-g7 .tile-62 { width: 76.19047619%; }
+.tile-c5 .tile-62 { width: 80%; }
+.tile-83 .tile-62, .tile-g6 .tile-62 { width: 88.88888889%; }
+.tile-11 .tile-63, .tile-22 .tile-63, .tile-33 .tile-63, .tile-44 .tile-63, .tile-66 .tile-63, .tile-88 .tile-63, .tile-cc .tile-63, .tile-gg .tile-63 { width: 50%; }
+.tile-gf .tile-63 { width: 53.33333333%; }
+.tile-cb .tile-63 { width: 54.54545455%; }
+.tile-87 .tile-63, .tile-ge .tile-63 { width: 57.14285714%; }
+.tile-65 .tile-63, .tile-ca .tile-63 { width: 60%; }
+.tile-gd .tile-63 { width: 61.53846154%; }
+.tile-43 .tile-63, .tile-86 .tile-63, .tile-c9 .tile-63, .tile-gc .tile-63 { width: 66.66666667%; }
+.tile-gb .tile-63 { width: 72.72727273%; }
+.tile-32 .tile-63, .tile-64 .tile-63, .tile-c8 .tile-63 { width: 75%; }
+.tile-85 .tile-63, .tile-ga .tile-63 { width: 80%; }
+.tile-c7 .tile-63 { width: 85.71428571%; }
+.tile-g9 .tile-63 { width: 88.88888889%; }
+.tile-11 .tile-64, .tile-22 .tile-64, .tile-33 .tile-64, .tile-44 .tile-64, .tile-66 .tile-64, .tile-88 .tile-64, .tile-cc .tile-64, .tile-gg .tile-64 { width: 66.66666667%; }
+.tile-gf .tile-64 { width: 71.11111111%; }
+.tile-cb .tile-64 { width: 72.72727273%; }
+.tile-87 .tile-64, .tile-ge .tile-64 { width: 76.19047619%; }
+.tile-65 .tile-64, .tile-ca .tile-64 { width: 80%; }
+.tile-gd .tile-64 { width: 82.05128205%; }
+.tile-43 .tile-64, .tile-86 .tile-64, .tile-c9 .tile-64, .tile-gc .tile-64 { width: 88.88888889%; }
+.tile-gb .tile-64 { width: 96.96969697%; }
+.tile-11 .tile-65, .tile-22 .tile-65, .tile-33 .tile-65, .tile-44 .tile-65, .tile-66 .tile-65, .tile-88 .tile-65, .tile-cc .tile-65, .tile-gg .tile-65 { width: 83.33333333%; }
+.tile-gf .tile-65 { width: 88.88888889%; }
+.tile-cb .tile-65 { width: 90.90909091%; }
+.tile-87 .tile-65, .tile-ge .tile-65 { width: 95.23809524%; }
+.tile-11 .tile-81, .tile-22 .tile-81, .tile-33 .tile-81, .tile-44 .tile-81, .tile-66 .tile-81, .tile-88 .tile-81, .tile-cc .tile-81, .tile-gg .tile-81 { width: 12.5%; }
+.tile-gf .tile-81 { width: 13.33333333%; }
+.tile-cb .tile-81 { width: 13.63636364%; }
+.tile-87 .tile-81, .tile-ge .tile-81 { width: 14.28571429%; }
+.tile-65 .tile-81, .tile-ca .tile-81 { width: 15%; }
+.tile-gd .tile-81 { width: 15.38461538%; }
+.tile-43 .tile-81, .tile-86 .tile-81, .tile-c9 .tile-81, .tile-gc .tile-81 { width: 16.66666667%; }
+.tile-gb .tile-81 { width: 18.18181818%; }
+.tile-32 .tile-81, .tile-64 .tile-81, .tile-c8 .tile-81 { width: 18.75%; }
+.tile-85 .tile-81, .tile-ga .tile-81 { width: 20%; }
+.tile-c7 .tile-81 { width: 21.42857143%; }
+.tile-g9 .tile-81 { width: 22.22222222%; }
+.tile-21 .tile-81, .tile-42 .tile-81, .tile-63 .tile-81, .tile-84 .tile-81, .tile-c6 .tile-81, .tile-g8 .tile-81 { width: 25%; }
+.tile-g7 .tile-81 { width: 28.57142857%; }
+.tile-c5 .tile-81 { width: 30%; }
+.tile-83 .tile-81, .tile-g6 .tile-81 { width: 33.33333333%; }
+.tile-31 .tile-81, .tile-62 .tile-81, .tile-c4 .tile-81 { width: 37.5%; }
+.tile-g5 .tile-81 { width: 40%; }
+.tile-41 .tile-81, .tile-82 .tile-81, .tile-c3 .tile-81, .tile-g4 .tile-81 { width: 50%; }
+.tile-g3 .tile-81 { width: 66.66666667%; }
+.tile-61 .tile-81, .tile-c2 .tile-81 { width: 75%; }
+.tile-11 .tile-82, .tile-22 .tile-82, .tile-33 .tile-82, .tile-44 .tile-82, .tile-66 .tile-82, .tile-88 .tile-82, .tile-cc .tile-82, .tile-gg .tile-82 { width: 25%; }
+.tile-gf .tile-82 { width: 26.66666667%; }
+.tile-cb .tile-82 { width: 27.27272727%; }
+.tile-87 .tile-82, .tile-ge .tile-82 { width: 28.57142857%; }
+.tile-65 .tile-82, .tile-ca .tile-82 { width: 30%; }
+.tile-gd .tile-82 { width: 30.76923077%; }
+.tile-43 .tile-82, .tile-86 .tile-82, .tile-c9 .tile-82, .tile-gc .tile-82 { width: 33.33333333%; }
+.tile-gb .tile-82 { width: 36.36363636%; }
+.tile-32 .tile-82, .tile-64 .tile-82, .tile-c8 .tile-82 { width: 37.5%; }
+.tile-85 .tile-82, .tile-ga .tile-82 { width: 40%; }
+.tile-c7 .tile-82 { width: 42.85714286%; }
+.tile-g9 .tile-82 { width: 44.44444444%; }
+.tile-21 .tile-82, .tile-42 .tile-82, .tile-63 .tile-82, .tile-84 .tile-82, .tile-c6 .tile-82, .tile-g8 .tile-82 { width: 50%; }
+.tile-g7 .tile-82 { width: 57.14285714%; }
+.tile-c5 .tile-82 { width: 60%; }
+.tile-83 .tile-82, .tile-g6 .tile-82 { width: 66.66666667%; }
+.tile-31 .tile-82, .tile-62 .tile-82, .tile-c4 .tile-82 { width: 75%; }
+.tile-g5 .tile-82 { width: 80%; }
+.tile-11 .tile-83, .tile-22 .tile-83, .tile-33 .tile-83, .tile-44 .tile-83, .tile-66 .tile-83, .tile-88 .tile-83, .tile-cc .tile-83, .tile-gg .tile-83 { width: 37.5%; }
+.tile-gf .tile-83 { width: 40%; }
+.tile-cb .tile-83 { width: 40.90909091%; }
+.tile-87 .tile-83, .tile-ge .tile-83 { width: 42.85714286%; }
+.tile-65 .tile-83, .tile-ca .tile-83 { width: 45%; }
+.tile-gd .tile-83 { width: 46.15384615%; }
+.tile-43 .tile-83, .tile-86 .tile-83, .tile-c9 .tile-83, .tile-gc .tile-83 { width: 50%; }
+.tile-gb .tile-83 { width: 54.54545455%; }
+.tile-32 .tile-83, .tile-64 .tile-83, .tile-c8 .tile-83 { width: 56.25%; }
+.tile-85 .tile-83, .tile-ga .tile-83 { width: 60%; }
+.tile-c7 .tile-83 { width: 64.28571429%; }
+.tile-g9 .tile-83 { width: 66.66666667%; }
+.tile-21 .tile-83, .tile-42 .tile-83, .tile-63 .tile-83, .tile-84 .tile-83, .tile-c6 .tile-83, .tile-g8 .tile-83 { width: 75%; }
+.tile-g7 .tile-83 { width: 85.71428571%; }
+.tile-c5 .tile-83 { width: 90%; }
+.tile-11 .tile-84, .tile-22 .tile-84, .tile-33 .tile-84, .tile-44 .tile-84, .tile-66 .tile-84, .tile-88 .tile-84, .tile-cc .tile-84, .tile-gg .tile-84 { width: 50%; }
+.tile-gf .tile-84 { width: 53.33333333%; }
+.tile-cb .tile-84 { width: 54.54545455%; }
+.tile-87 .tile-84, .tile-ge .tile-84 { width: 57.14285714%; }
+.tile-65 .tile-84, .tile-ca .tile-84 { width: 60%; }
+.tile-gd .tile-84 { width: 61.53846154%; }
+.tile-43 .tile-84, .tile-86 .tile-84, .tile-c9 .tile-84, .tile-gc .tile-84 { width: 66.66666667%; }
+.tile-gb .tile-84 { width: 72.72727273%; }
+.tile-32 .tile-84, .tile-64 .tile-84, .tile-c8 .tile-84 { width: 75%; }
+.tile-85 .tile-84, .tile-ga .tile-84 { width: 80%; }
+.tile-c7 .tile-84 { width: 85.71428571%; }
+.tile-g9 .tile-84 { width: 88.88888889%; }
+.tile-11 .tile-85, .tile-22 .tile-85, .tile-33 .tile-85, .tile-44 .tile-85, .tile-66 .tile-85, .tile-88 .tile-85, .tile-cc .tile-85, .tile-gg .tile-85 { width: 62.5%; }
+.tile-gf .tile-85 { width: 66.66666667%; }
+.tile-cb .tile-85 { width: 68.18181818%; }
+.tile-87 .tile-85, .tile-ge .tile-85 { width: 71.42857143%; }
+.tile-65 .tile-85, .tile-ca .tile-85 { width: 75%; }
+.tile-gd .tile-85 { width: 76.92307692%; }
+.tile-43 .tile-85, .tile-86 .tile-85, .tile-c9 .tile-85, .tile-gc .tile-85 { width: 83.33333333%; }
+.tile-gb .tile-85 { width: 90.90909091%; }
+.tile-32 .tile-85, .tile-64 .tile-85, .tile-c8 .tile-85 { width: 93.75%; }
+.tile-11 .tile-86, .tile-22 .tile-86, .tile-33 .tile-86, .tile-44 .tile-86, .tile-66 .tile-86, .tile-88 .tile-86, .tile-cc .tile-86, .tile-gg .tile-86 { width: 75%; }
+.tile-gf .tile-86 { width: 80%; }
+.tile-cb .tile-86 { width: 81.81818182%; }
+.tile-87 .tile-86, .tile-ge .tile-86 { width: 85.71428571%; }
+.tile-65 .tile-86, .tile-ca .tile-86 { width: 90%; }
+.tile-gd .tile-86 { width: 92.30769231%; }
+.tile-11 .tile-87, .tile-22 .tile-87, .tile-33 .tile-87, .tile-44 .tile-87, .tile-66 .tile-87, .tile-88 .tile-87, .tile-cc .tile-87, .tile-gg .tile-87 { width: 87.5%; }
+.tile-gf .tile-87 { width: 93.33333333%; }
+.tile-cb .tile-87 { width: 95.45454545%; }
+.tile-11 .tile-c1, .tile-22 .tile-c1, .tile-33 .tile-c1, .tile-44 .tile-c1, .tile-66 .tile-c1, .tile-88 .tile-c1, .tile-cc .tile-c1, .tile-gg .tile-c1 { width: 8.33333333%; }
+.tile-gf .tile-c1 { width: 8.88888889%; }
+.tile-cb .tile-c1 { width: 9.09090909%; }
+.tile-87 .tile-c1, .tile-ge .tile-c1 { width: 9.52380952%; }
+.tile-65 .tile-c1, .tile-ca .tile-c1 { width: 10%; }
+.tile-gd .tile-c1 { width: 10.25641026%; }
+.tile-43 .tile-c1, .tile-86 .tile-c1, .tile-c9 .tile-c1, .tile-gc .tile-c1 { width: 11.11111111%; }
+.tile-gb .tile-c1 { width: 12.12121212%; }
+.tile-32 .tile-c1, .tile-64 .tile-c1, .tile-c8 .tile-c1 { width: 12.5%; }
+.tile-85 .tile-c1, .tile-ga .tile-c1 { width: 13.33333333%; }
+.tile-c7 .tile-c1 { width: 14.28571429%; }
+.tile-g9 .tile-c1 { width: 14.81481481%; }
+.tile-21 .tile-c1, .tile-42 .tile-c1, .tile-63 .tile-c1, .tile-84 .tile-c1, .tile-c6 .tile-c1, .tile-g8 .tile-c1 { width: 16.66666667%; }
+.tile-g7 .tile-c1 { width: 19.04761905%; }
+.tile-c5 .tile-c1 { width: 20%; }
+.tile-83 .tile-c1, .tile-g6 .tile-c1 { width: 22.22222222%; }
+.tile-31 .tile-c1, .tile-62 .tile-c1, .tile-c4 .tile-c1 { width: 25%; }
+.tile-g5 .tile-c1 { width: 26.66666667%; }
+.tile-41 .tile-c1, .tile-82 .tile-c1, .tile-c3 .tile-c1, .tile-g4 .tile-c1 { width: 33.33333333%; }
+.tile-g3 .tile-c1 { width: 44.44444444%; }
+.tile-61 .tile-c1, .tile-c2 .tile-c1 { width: 50%; }
+.tile-81 .tile-c1, .tile-g2 .tile-c1 { width: 66.66666667%; }
+.tile-11 .tile-c2, .tile-22 .tile-c2, .tile-33 .tile-c2, .tile-44 .tile-c2, .tile-66 .tile-c2, .tile-88 .tile-c2, .tile-cc .tile-c2, .tile-gg .tile-c2 { width: 16.66666667%; }
+.tile-gf .tile-c2 { width: 17.77777778%; }
+.tile-cb .tile-c2 { width: 18.18181818%; }
+.tile-87 .tile-c2, .tile-ge .tile-c2 { width: 19.04761905%; }
+.tile-65 .tile-c2, .tile-ca .tile-c2 { width: 20%; }
+.tile-gd .tile-c2 { width: 20.51282051%; }
+.tile-43 .tile-c2, .tile-86 .tile-c2, .tile-c9 .tile-c2, .tile-gc .tile-c2 { width: 22.22222222%; }
+.tile-gb .tile-c2 { width: 24.24242424%; }
+.tile-32 .tile-c2, .tile-64 .tile-c2, .tile-c8 .tile-c2 { width: 25%; }
+.tile-85 .tile-c2, .tile-ga .tile-c2 { width: 26.66666667%; }
+.tile-c7 .tile-c2 { width: 28.57142857%; }
+.tile-g9 .tile-c2 { width: 29.62962963%; }
+.tile-21 .tile-c2, .tile-42 .tile-c2, .tile-63 .tile-c2, .tile-84 .tile-c2, .tile-c6 .tile-c2, .tile-g8 .tile-c2 { width: 33.33333333%; }
+.tile-g7 .tile-c2 { width: 38.0952381%; }
+.tile-c5 .tile-c2 { width: 40%; }
+.tile-83 .tile-c2, .tile-g6 .tile-c2 { width: 44.44444444%; }
+.tile-31 .tile-c2, .tile-62 .tile-c2, .tile-c4 .tile-c2 { width: 50%; }
+.tile-g5 .tile-c2 { width: 53.33333333%; }
+.tile-41 .tile-c2, .tile-82 .tile-c2, .tile-c3 .tile-c2, .tile-g4 .tile-c2 { width: 66.66666667%; }
+.tile-g3 .tile-c2 { width: 88.88888889%; }
+.tile-11 .tile-c3, .tile-22 .tile-c3, .tile-33 .tile-c3, .tile-44 .tile-c3, .tile-66 .tile-c3, .tile-88 .tile-c3, .tile-cc .tile-c3, .tile-gg .tile-c3 { width: 25%; }
+.tile-gf .tile-c3 { width: 26.66666667%; }
+.tile-cb .tile-c3 { width: 27.27272727%; }
+.tile-87 .tile-c3, .tile-ge .tile-c3 { width: 28.57142857%; }
+.tile-65 .tile-c3, .tile-ca .tile-c3 { width: 30%; }
+.tile-gd .tile-c3 { width: 30.76923077%; }
+.tile-43 .tile-c3, .tile-86 .tile-c3, .tile-c9 .tile-c3, .tile-gc .tile-c3 { width: 33.33333333%; }
+.tile-gb .tile-c3 { width: 36.36363636%; }
+.tile-32 .tile-c3, .tile-64 .tile-c3, .tile-c8 .tile-c3 { width: 37.5%; }
+.tile-85 .tile-c3, .tile-ga .tile-c3 { width: 40%; }
+.tile-c7 .tile-c3 { width: 42.85714286%; }
+.tile-g9 .tile-c3 { width: 44.44444444%; }
+.tile-21 .tile-c3, .tile-42 .tile-c3, .tile-63 .tile-c3, .tile-84 .tile-c3, .tile-c6 .tile-c3, .tile-g8 .tile-c3 { width: 50%; }
+.tile-g7 .tile-c3 { width: 57.14285714%; }
+.tile-c5 .tile-c3 { width: 60%; }
+.tile-83 .tile-c3, .tile-g6 .tile-c3 { width: 66.66666667%; }
+.tile-31 .tile-c3, .tile-62 .tile-c3, .tile-c4 .tile-c3 { width: 75%; }
+.tile-g5 .tile-c3 { width: 80%; }
+.tile-11 .tile-c4, .tile-22 .tile-c4, .tile-33 .tile-c4, .tile-44 .tile-c4, .tile-66 .tile-c4, .tile-88 .tile-c4, .tile-cc .tile-c4, .tile-gg .tile-c4 { width: 33.33333333%; }
+.tile-gf .tile-c4 { width: 35.55555556%; }
+.tile-cb .tile-c4 { width: 36.36363636%; }
+.tile-87 .tile-c4, .tile-ge .tile-c4 { width: 38.0952381%; }
+.tile-65 .tile-c4, .tile-ca .tile-c4 { width: 40%; }
+.tile-gd .tile-c4 { width: 41.02564103%; }
+.tile-43 .tile-c4, .tile-86 .tile-c4, .tile-c9 .tile-c4, .tile-gc .tile-c4 { width: 44.44444444%; }
+.tile-gb .tile-c4 { width: 48.48484848%; }
+.tile-32 .tile-c4, .tile-64 .tile-c4, .tile-c8 .tile-c4 { width: 50%; }
+.tile-85 .tile-c4, .tile-ga .tile-c4 { width: 53.33333333%; }
+.tile-c7 .tile-c4 { width: 57.14285714%; }
+.tile-g9 .tile-c4 { width: 59.25925926%; }
+.tile-21 .tile-c4, .tile-42 .tile-c4, .tile-63 .tile-c4, .tile-84 .tile-c4, .tile-c6 .tile-c4, .tile-g8 .tile-c4 { width: 66.66666667%; }
+.tile-g7 .tile-c4 { width: 76.19047619%; }
+.tile-c5 .tile-c4 { width: 80%; }
+.tile-83 .tile-c4, .tile-g6 .tile-c4 { width: 88.88888889%; }
+.tile-11 .tile-c5, .tile-22 .tile-c5, .tile-33 .tile-c5, .tile-44 .tile-c5, .tile-66 .tile-c5, .tile-88 .tile-c5, .tile-cc .tile-c5, .tile-gg .tile-c5 { width: 41.66666667%; }
+.tile-gf .tile-c5 { width: 44.44444444%; }
+.tile-cb .tile-c5 { width: 45.45454545%; }
+.tile-87 .tile-c5, .tile-ge .tile-c5 { width: 47.61904762%; }
+.tile-65 .tile-c5, .tile-ca .tile-c5 { width: 50%; }
+.tile-gd .tile-c5 { width: 51.28205128%; }
+.tile-43 .tile-c5, .tile-86 .tile-c5, .tile-c9 .tile-c5, .tile-gc .tile-c5 { width: 55.55555556%; }
+.tile-gb .tile-c5 { width: 60.60606061%; }
+.tile-32 .tile-c5, .tile-64 .tile-c5, .tile-c8 .tile-c5 { width: 62.5%; }
+.tile-85 .tile-c5, .tile-ga .tile-c5 { width: 66.66666667%; }
+.tile-c7 .tile-c5 { width: 71.42857143%; }
+.tile-g9 .tile-c5 { width: 74.07407407%; }
+.tile-21 .tile-c5, .tile-42 .tile-c5, .tile-63 .tile-c5, .tile-84 .tile-c5, .tile-c6 .tile-c5, .tile-g8 .tile-c5 { width: 83.33333333%; }
+.tile-g7 .tile-c5 { width: 95.23809524%; }
+.tile-11 .tile-c6, .tile-22 .tile-c6, .tile-33 .tile-c6, .tile-44 .tile-c6, .tile-66 .tile-c6, .tile-88 .tile-c6, .tile-cc .tile-c6, .tile-gg .tile-c6 { width: 50%; }
+.tile-gf .tile-c6 { width: 53.33333333%; }
+.tile-cb .tile-c6 { width: 54.54545455%; }
+.tile-87 .tile-c6, .tile-ge .tile-c6 { width: 57.14285714%; }
+.tile-65 .tile-c6, .tile-ca .tile-c6 { width: 60%; }
+.tile-gd .tile-c6 { width: 61.53846154%; }
+.tile-43 .tile-c6, .tile-86 .tile-c6, .tile-c9 .tile-c6, .tile-gc .tile-c6 { width: 66.66666667%; }
+.tile-gb .tile-c6 { width: 72.72727273%; }
+.tile-32 .tile-c6, .tile-64 .tile-c6, .tile-c8 .tile-c6 { width: 75%; }
+.tile-85 .tile-c6, .tile-ga .tile-c6 { width: 80%; }
+.tile-c7 .tile-c6 { width: 85.71428571%; }
+.tile-g9 .tile-c6 { width: 88.88888889%; }
+.tile-11 .tile-c7, .tile-22 .tile-c7, .tile-33 .tile-c7, .tile-44 .tile-c7, .tile-66 .tile-c7, .tile-88 .tile-c7, .tile-cc .tile-c7, .tile-gg .tile-c7 { width: 58.33333333%; }
+.tile-gf .tile-c7 { width: 62.22222222%; }
+.tile-cb .tile-c7 { width: 63.63636364%; }
+.tile-87 .tile-c7, .tile-ge .tile-c7 { width: 66.66666667%; }
+.tile-65 .tile-c7, .tile-ca .tile-c7 { width: 70%; }
+.tile-gd .tile-c7 { width: 71.79487179%; }
+.tile-43 .tile-c7, .tile-86 .tile-c7, .tile-c9 .tile-c7, .tile-gc .tile-c7 { width: 77.77777778%; }
+.tile-gb .tile-c7 { width: 84.84848485%; }
+.tile-32 .tile-c7, .tile-64 .tile-c7, .tile-c8 .tile-c7 { width: 87.5%; }
+.tile-85 .tile-c7, .tile-ga .tile-c7 { width: 93.33333333%; }
+.tile-11 .tile-c8, .tile-22 .tile-c8, .tile-33 .tile-c8, .tile-44 .tile-c8, .tile-66 .tile-c8, .tile-88 .tile-c8, .tile-cc .tile-c8, .tile-gg .tile-c8 { width: 66.66666667%; }
+.tile-gf .tile-c8 { width: 71.11111111%; }
+.tile-cb .tile-c8 { width: 72.72727273%; }
+.tile-87 .tile-c8, .tile-ge .tile-c8 { width: 76.19047619%; }
+.tile-65 .tile-c8, .tile-ca .tile-c8 { width: 80%; }
+.tile-gd .tile-c8 { width: 82.05128205%; }
+.tile-43 .tile-c8, .tile-86 .tile-c8, .tile-c9 .tile-c8, .tile-gc .tile-c8 { width: 88.88888889%; }
+.tile-gb .tile-c8 { width: 96.96969697%; }
+.tile-11 .tile-c9, .tile-22 .tile-c9, .tile-33 .tile-c9, .tile-44 .tile-c9, .tile-66 .tile-c9, .tile-88 .tile-c9, .tile-cc .tile-c9, .tile-gg .tile-c9 { width: 75%; }
+.tile-gf .tile-c9 { width: 80%; }
+.tile-cb .tile-c9 { width: 81.81818182%; }
+.tile-87 .tile-c9, .tile-ge .tile-c9 { width: 85.71428571%; }
+.tile-65 .tile-c9, .tile-ca .tile-c9 { width: 90%; }
+.tile-gd .tile-c9 { width: 92.30769231%; }
+.tile-11 .tile-ca, .tile-22 .tile-ca, .tile-33 .tile-ca, .tile-44 .tile-ca, .tile-66 .tile-ca, .tile-88 .tile-ca, .tile-cc .tile-ca, .tile-gg .tile-ca { width: 83.33333333%; }
+.tile-gf .tile-ca { width: 88.88888889%; }
+.tile-cb .tile-ca { width: 90.90909091%; }
+.tile-87 .tile-ca, .tile-ge .tile-ca { width: 95.23809524%; }
+.tile-11 .tile-cb, .tile-22 .tile-cb, .tile-33 .tile-cb, .tile-44 .tile-cb, .tile-66 .tile-cb, .tile-88 .tile-cb, .tile-cc .tile-cb, .tile-gg .tile-cb { width: 91.66666667%; }
+.tile-gf .tile-cb { width: 97.77777778%; }
+.tile-11 .tile-g1, .tile-22 .tile-g1, .tile-33 .tile-g1, .tile-44 .tile-g1, .tile-66 .tile-g1, .tile-88 .tile-g1, .tile-cc .tile-g1, .tile-gg .tile-g1 { width: 6.25%; }
+.tile-gf .tile-g1 { width: 6.66666667%; }
+.tile-cb .tile-g1 { width: 6.81818182%; }
+.tile-87 .tile-g1, .tile-ge .tile-g1 { width: 7.14285714%; }
+.tile-65 .tile-g1, .tile-ca .tile-g1 { width: 7.5%; }
+.tile-gd .tile-g1 { width: 7.69230769%; }
+.tile-43 .tile-g1, .tile-86 .tile-g1, .tile-c9 .tile-g1, .tile-gc .tile-g1 { width: 8.33333333%; }
+.tile-gb .tile-g1 { width: 9.09090909%; }
+.tile-32 .tile-g1, .tile-64 .tile-g1, .tile-c8 .tile-g1 { width: 9.375%; }
+.tile-85 .tile-g1, .tile-ga .tile-g1 { width: 10%; }
+.tile-c7 .tile-g1 { width: 10.71428571%; }
+.tile-g9 .tile-g1 { width: 11.11111111%; }
+.tile-21 .tile-g1, .tile-42 .tile-g1, .tile-63 .tile-g1, .tile-84 .tile-g1, .tile-c6 .tile-g1, .tile-g8 .tile-g1 { width: 12.5%; }
+.tile-g7 .tile-g1 { width: 14.28571429%; }
+.tile-c5 .tile-g1 { width: 15%; }
+.tile-83 .tile-g1, .tile-g6 .tile-g1 { width: 16.66666667%; }
+.tile-31 .tile-g1, .tile-62 .tile-g1, .tile-c4 .tile-g1 { width: 18.75%; }
+.tile-g5 .tile-g1 { width: 20%; }
+.tile-41 .tile-g1, .tile-82 .tile-g1, .tile-c3 .tile-g1, .tile-g4 .tile-g1 { width: 25%; }
+.tile-g3 .tile-g1 { width: 33.33333333%; }
+.tile-61 .tile-g1, .tile-c2 .tile-g1 { width: 37.5%; }
+.tile-81 .tile-g1, .tile-g2 .tile-g1 { width: 50%; }
+.tile-c1 .tile-g1 { width: 75%; }
+.tile-11 .tile-g2, .tile-22 .tile-g2, .tile-33 .tile-g2, .tile-44 .tile-g2, .tile-66 .tile-g2, .tile-88 .tile-g2, .tile-cc .tile-g2, .tile-gg .tile-g2 { width: 12.5%; }
+.tile-gf .tile-g2 { width: 13.33333333%; }
+.tile-cb .tile-g2 { width: 13.63636364%; }
+.tile-87 .tile-g2, .tile-ge .tile-g2 { width: 14.28571429%; }
+.tile-65 .tile-g2, .tile-ca .tile-g2 { width: 15%; }
+.tile-gd .tile-g2 { width: 15.38461538%; }
+.tile-43 .tile-g2, .tile-86 .tile-g2, .tile-c9 .tile-g2, .tile-gc .tile-g2 { width: 16.66666667%; }
+.tile-gb .tile-g2 { width: 18.18181818%; }
+.tile-32 .tile-g2, .tile-64 .tile-g2, .tile-c8 .tile-g2 { width: 18.75%; }
+.tile-85 .tile-g2, .tile-ga .tile-g2 { width: 20%; }
+.tile-c7 .tile-g2 { width: 21.42857143%; }
+.tile-g9 .tile-g2 { width: 22.22222222%; }
+.tile-21 .tile-g2, .tile-42 .tile-g2, .tile-63 .tile-g2, .tile-84 .tile-g2, .tile-c6 .tile-g2, .tile-g8 .tile-g2 { width: 25%; }
+.tile-g7 .tile-g2 { width: 28.57142857%; }
+.tile-c5 .tile-g2 { width: 30%; }
+.tile-83 .tile-g2, .tile-g6 .tile-g2 { width: 33.33333333%; }
+.tile-31 .tile-g2, .tile-62 .tile-g2, .tile-c4 .tile-g2 { width: 37.5%; }
+.tile-g5 .tile-g2 { width: 40%; }
+.tile-41 .tile-g2, .tile-82 .tile-g2, .tile-c3 .tile-g2, .tile-g4 .tile-g2 { width: 50%; }
+.tile-g3 .tile-g2 { width: 66.66666667%; }
+.tile-61 .tile-g2, .tile-c2 .tile-g2 { width: 75%; }
+.tile-11 .tile-g3, .tile-22 .tile-g3, .tile-33 .tile-g3, .tile-44 .tile-g3, .tile-66 .tile-g3, .tile-88 .tile-g3, .tile-cc .tile-g3, .tile-gg .tile-g3 { width: 18.75%; }
+.tile-gf .tile-g3 { width: 20%; }
+.tile-cb .tile-g3 { width: 20.45454545%; }
+.tile-87 .tile-g3, .tile-ge .tile-g3 { width: 21.42857143%; }
+.tile-65 .tile-g3, .tile-ca .tile-g3 { width: 22.5%; }
+.tile-gd .tile-g3 { width: 23.07692308%; }
+.tile-43 .tile-g3, .tile-86 .tile-g3, .tile-c9 .tile-g3, .tile-gc .tile-g3 { width: 25%; }
+.tile-gb .tile-g3 { width: 27.27272727%; }
+.tile-32 .tile-g3, .tile-64 .tile-g3, .tile-c8 .tile-g3 { width: 28.125%; }
+.tile-85 .tile-g3, .tile-ga .tile-g3 { width: 30%; }
+.tile-c7 .tile-g3 { width: 32.14285714%; }
+.tile-g9 .tile-g3 { width: 33.33333333%; }
+.tile-21 .tile-g3, .tile-42 .tile-g3, .tile-63 .tile-g3, .tile-84 .tile-g3, .tile-c6 .tile-g3, .tile-g8 .tile-g3 { width: 37.5%; }
+.tile-g7 .tile-g3 { width: 42.85714286%; }
+.tile-c5 .tile-g3 { width: 45%; }
+.tile-83 .tile-g3, .tile-g6 .tile-g3 { width: 50%; }
+.tile-31 .tile-g3, .tile-62 .tile-g3, .tile-c4 .tile-g3 { width: 56.25%; }
+.tile-g5 .tile-g3 { width: 60%; }
+.tile-41 .tile-g3, .tile-82 .tile-g3, .tile-c3 .tile-g3, .tile-g4 .tile-g3 { width: 75%; }
+.tile-11 .tile-g4, .tile-22 .tile-g4, .tile-33 .tile-g4, .tile-44 .tile-g4, .tile-66 .tile-g4, .tile-88 .tile-g4, .tile-cc .tile-g4, .tile-gg .tile-g4 { width: 25%; }
+.tile-gf .tile-g4 { width: 26.66666667%; }
+.tile-cb .tile-g4 { width: 27.27272727%; }
+.tile-87 .tile-g4, .tile-ge .tile-g4 { width: 28.57142857%; }
+.tile-65 .tile-g4, .tile-ca .tile-g4 { width: 30%; }
+.tile-gd .tile-g4 { width: 30.76923077%; }
+.tile-43 .tile-g4, .tile-86 .tile-g4, .tile-c9 .tile-g4, .tile-gc .tile-g4 { width: 33.33333333%; }
+.tile-gb .tile-g4 { width: 36.36363636%; }
+.tile-32 .tile-g4, .tile-64 .tile-g4, .tile-c8 .tile-g4 { width: 37.5%; }
+.tile-85 .tile-g4, .tile-ga .tile-g4 { width: 40%; }
+.tile-c7 .tile-g4 { width: 42.85714286%; }
+.tile-g9 .tile-g4 { width: 44.44444444%; }
+.tile-21 .tile-g4, .tile-42 .tile-g4, .tile-63 .tile-g4, .tile-84 .tile-g4, .tile-c6 .tile-g4, .tile-g8 .tile-g4 { width: 50%; }
+.tile-g7 .tile-g4 { width: 57.14285714%; }
+.tile-c5 .tile-g4 { width: 60%; }
+.tile-83 .tile-g4, .tile-g6 .tile-g4 { width: 66.66666667%; }
+.tile-31 .tile-g4, .tile-62 .tile-g4, .tile-c4 .tile-g4 { width: 75%; }
+.tile-g5 .tile-g4 { width: 80%; }
+.tile-11 .tile-g5, .tile-22 .tile-g5, .tile-33 .tile-g5, .tile-44 .tile-g5, .tile-66 .tile-g5, .tile-88 .tile-g5, .tile-cc .tile-g5, .tile-gg .tile-g5 { width: 31.25%; }
+.tile-gf .tile-g5 { width: 33.33333333%; }
+.tile-cb .tile-g5 { width: 34.09090909%; }
+.tile-87 .tile-g5, .tile-ge .tile-g5 { width: 35.71428571%; }
+.tile-65 .tile-g5, .tile-ca .tile-g5 { width: 37.5%; }
+.tile-gd .tile-g5 { width: 38.46153846%; }
+.tile-43 .tile-g5, .tile-86 .tile-g5, .tile-c9 .tile-g5, .tile-gc .tile-g5 { width: 41.66666667%; }
+.tile-gb .tile-g5 { width: 45.45454545%; }
+.tile-32 .tile-g5, .tile-64 .tile-g5, .tile-c8 .tile-g5 { width: 46.875%; }
+.tile-85 .tile-g5, .tile-ga .tile-g5 { width: 50%; }
+.tile-c7 .tile-g5 { width: 53.57142857%; }
+.tile-g9 .tile-g5 { width: 55.55555556%; }
+.tile-21 .tile-g5, .tile-42 .tile-g5, .tile-63 .tile-g5, .tile-84 .tile-g5, .tile-c6 .tile-g5, .tile-g8 .tile-g5 { width: 62.5%; }
+.tile-g7 .tile-g5 { width: 71.42857143%; }
+.tile-c5 .tile-g5 { width: 75%; }
+.tile-83 .tile-g5, .tile-g6 .tile-g5 { width: 83.33333333%; }
+.tile-31 .tile-g5, .tile-62 .tile-g5, .tile-c4 .tile-g5 { width: 93.75%; }
+.tile-11 .tile-g6, .tile-22 .tile-g6, .tile-33 .tile-g6, .tile-44 .tile-g6, .tile-66 .tile-g6, .tile-88 .tile-g6, .tile-cc .tile-g6, .tile-gg .tile-g6 { width: 37.5%; }
+.tile-gf .tile-g6 { width: 40%; }
+.tile-cb .tile-g6 { width: 40.90909091%; }
+.tile-87 .tile-g6, .tile-ge .tile-g6 { width: 42.85714286%; }
+.tile-65 .tile-g6, .tile-ca .tile-g6 { width: 45%; }
+.tile-gd .tile-g6 { width: 46.15384615%; }
+.tile-43 .tile-g6, .tile-86 .tile-g6, .tile-c9 .tile-g6, .tile-gc .tile-g6 { width: 50%; }
+.tile-gb .tile-g6 { width: 54.54545455%; }
+.tile-32 .tile-g6, .tile-64 .tile-g6, .tile-c8 .tile-g6 { width: 56.25%; }
+.tile-85 .tile-g6, .tile-ga .tile-g6 { width: 60%; }
+.tile-c7 .tile-g6 { width: 64.28571429%; }
+.tile-g9 .tile-g6 { width: 66.66666667%; }
+.tile-21 .tile-g6, .tile-42 .tile-g6, .tile-63 .tile-g6, .tile-84 .tile-g6, .tile-c6 .tile-g6, .tile-g8 .tile-g6 { width: 75%; }
+.tile-g7 .tile-g6 { width: 85.71428571%; }
+.tile-c5 .tile-g6 { width: 90%; }
+.tile-11 .tile-g7, .tile-22 .tile-g7, .tile-33 .tile-g7, .tile-44 .tile-g7, .tile-66 .tile-g7, .tile-88 .tile-g7, .tile-cc .tile-g7, .tile-gg .tile-g7 { width: 43.75%; }
+.tile-gf .tile-g7 { width: 46.66666667%; }
+.tile-cb .tile-g7 { width: 47.72727273%; }
+.tile-87 .tile-g7, .tile-ge .tile-g7 { width: 50%; }
+.tile-65 .tile-g7, .tile-ca .tile-g7 { width: 52.5%; }
+.tile-gd .tile-g7 { width: 53.84615385%; }
+.tile-43 .tile-g7, .tile-86 .tile-g7, .tile-c9 .tile-g7, .tile-gc .tile-g7 { width: 58.33333333%; }
+.tile-gb .tile-g7 { width: 63.63636364%; }
+.tile-32 .tile-g7, .tile-64 .tile-g7, .tile-c8 .tile-g7 { width: 65.625%; }
+.tile-85 .tile-g7, .tile-ga .tile-g7 { width: 70%; }
+.tile-c7 .tile-g7 { width: 75%; }
+.tile-g9 .tile-g7 { width: 77.77777778%; }
+.tile-21 .tile-g7, .tile-42 .tile-g7, .tile-63 .tile-g7, .tile-84 .tile-g7, .tile-c6 .tile-g7, .tile-g8 .tile-g7 { width: 87.5%; }
+.tile-11 .tile-g8, .tile-22 .tile-g8, .tile-33 .tile-g8, .tile-44 .tile-g8, .tile-66 .tile-g8, .tile-88 .tile-g8, .tile-cc .tile-g8, .tile-gg .tile-g8 { width: 50%; }
+.tile-gf .tile-g8 { width: 53.33333333%; }
+.tile-cb .tile-g8 { width: 54.54545455%; }
+.tile-87 .tile-g8, .tile-ge .tile-g8 { width: 57.14285714%; }
+.tile-65 .tile-g8, .tile-ca .tile-g8 { width: 60%; }
+.tile-gd .tile-g8 { width: 61.53846154%; }
+.tile-43 .tile-g8, .tile-86 .tile-g8, .tile-c9 .tile-g8, .tile-gc .tile-g8 { width: 66.66666667%; }
+.tile-gb .tile-g8 { width: 72.72727273%; }
+.tile-32 .tile-g8, .tile-64 .tile-g8, .tile-c8 .tile-g8 { width: 75%; }
+.tile-85 .tile-g8, .tile-ga .tile-g8 { width: 80%; }
+.tile-c7 .tile-g8 { width: 85.71428571%; }
+.tile-g9 .tile-g8 { width: 88.88888889%; }
+.tile-11 .tile-g9, .tile-22 .tile-g9, .tile-33 .tile-g9, .tile-44 .tile-g9, .tile-66 .tile-g9, .tile-88 .tile-g9, .tile-cc .tile-g9, .tile-gg .tile-g9 { width: 56.25%; }
+.tile-gf .tile-g9 { width: 60%; }
+.tile-cb .tile-g9 { width: 61.36363636%; }
+.tile-87 .tile-g9, .tile-ge .tile-g9 { width: 64.28571429%; }
+.tile-65 .tile-g9, .tile-ca .tile-g9 { width: 67.5%; }
+.tile-gd .tile-g9 { width: 69.23076923%; }
+.tile-43 .tile-g9, .tile-86 .tile-g9, .tile-c9 .tile-g9, .tile-gc .tile-g9 { width: 75%; }
+.tile-gb .tile-g9 { width: 81.81818182%; }
+.tile-32 .tile-g9, .tile-64 .tile-g9, .tile-c8 .tile-g9 { width: 84.375%; }
+.tile-85 .tile-g9, .tile-ga .tile-g9 { width: 90%; }
+.tile-c7 .tile-g9 { width: 96.42857143%; }
+.tile-11 .tile-ga, .tile-22 .tile-ga, .tile-33 .tile-ga, .tile-44 .tile-ga, .tile-66 .tile-ga, .tile-88 .tile-ga, .tile-cc .tile-ga, .tile-gg .tile-ga { width: 62.5%; }
+.tile-gf .tile-ga { width: 66.66666667%; }
+.tile-cb .tile-ga { width: 68.18181818%; }
+.tile-87 .tile-ga, .tile-ge .tile-ga { width: 71.42857143%; }
+.tile-65 .tile-ga, .tile-ca .tile-ga { width: 75%; }
+.tile-gd .tile-ga { width: 76.92307692%; }
+.tile-43 .tile-ga, .tile-86 .tile-ga, .tile-c9 .tile-ga, .tile-gc .tile-ga { width: 83.33333333%; }
+.tile-gb .tile-ga { width: 90.90909091%; }
+.tile-32 .tile-ga, .tile-64 .tile-ga, .tile-c8 .tile-ga { width: 93.75%; }
+.tile-11 .tile-gb, .tile-22 .tile-gb, .tile-33 .tile-gb, .tile-44 .tile-gb, .tile-66 .tile-gb, .tile-88 .tile-gb, .tile-cc .tile-gb, .tile-gg .tile-gb { width: 68.75%; }
+.tile-gf .tile-gb { width: 73.33333333%; }
+.tile-cb .tile-gb { width: 75%; }
+.tile-87 .tile-gb, .tile-ge .tile-gb { width: 78.57142857%; }
+.tile-65 .tile-gb, .tile-ca .tile-gb { width: 82.5%; }
+.tile-gd .tile-gb { width: 84.61538462%; }
+.tile-43 .tile-gb, .tile-86 .tile-gb, .tile-c9 .tile-gb, .tile-gc .tile-gb { width: 91.66666667%; }
+.tile-11 .tile-gc, .tile-22 .tile-gc, .tile-33 .tile-gc, .tile-44 .tile-gc, .tile-66 .tile-gc, .tile-88 .tile-gc, .tile-cc .tile-gc, .tile-gg .tile-gc { width: 75%; }
+.tile-gf .tile-gc { width: 80%; }
+.tile-cb .tile-gc { width: 81.81818182%; }
+.tile-87 .tile-gc, .tile-ge .tile-gc { width: 85.71428571%; }
+.tile-65 .tile-gc, .tile-ca .tile-gc { width: 90%; }
+.tile-gd .tile-gc { width: 92.30769231%; }
+.tile-11 .tile-gd, .tile-22 .tile-gd, .tile-33 .tile-gd, .tile-44 .tile-gd, .tile-66 .tile-gd, .tile-88 .tile-gd, .tile-cc .tile-gd, .tile-gg .tile-gd { width: 81.25%; }
+.tile-gf .tile-gd { width: 86.66666667%; }
+.tile-cb .tile-gd { width: 88.63636364%; }
+.tile-87 .tile-gd, .tile-ge .tile-gd { width: 92.85714286%; }
+.tile-65 .tile-gd, .tile-ca .tile-gd { width: 97.5%; }
+.tile-11 .tile-ge, .tile-22 .tile-ge, .tile-33 .tile-ge, .tile-44 .tile-ge, .tile-66 .tile-ge, .tile-88 .tile-ge, .tile-cc .tile-ge, .tile-gg .tile-ge { width: 87.5%; }
+.tile-gf .tile-ge { width: 93.33333333%; }
+.tile-cb .tile-ge { width: 95.45454545%; }
+.tile-11 .tile-gf, .tile-22 .tile-gf, .tile-33 .tile-gf, .tile-44 .tile-gf, .tile-66 .tile-gf, .tile-88 .tile-gf, .tile-cc .tile-gf, .tile-gg .tile-gf { width: 93.75%; }

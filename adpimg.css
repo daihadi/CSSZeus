@@ -1,0 +1,286 @@
+/**
+ * CSSZeus is a CSS framework providing some responsive web design tools.
+ * CSSZeus is free software and open source under GNU GPLv3 license.
+ * Copyright (C) 2013 Hadi Sadeqi
+ * see the LICENSE section of README.md delivered with library or get from http://cssze.us/resources/README.md
+ * visit us at http://cssze.us/
+ */
+
+/* horizontal adaptive images without aspect ratio */
+/* In the following lines the horizontal margin makes defferent areas of the image visible in defferent width of the "tile-??". We tried to select optimized horizontal margin. Calculated final visible areas in pixels is available in the cheatsheet. */
+.tile-11 .adpimg img, .tile-22 .adpimg img, .tile-33 .adpimg img, .tile-44 .adpimg img, .tile-66 .adpimg img, .tile-88 .adpimg img, .tile-cc .adpimg img, .tile-gg .adpimg img { margin: 0 -495%; }
+.tile-gf .adpimg img { margin: 0 -500%; }
+.tile-cb .adpimg img { margin: 0 -495%; }
+.tile-87 .adpimg img, .tile-ge .adpimg img { margin: 0 -500%; }
+.tile-65 .adpimg img, .tile-ca .adpimg img { margin: 0 -490%; }
+.tile-gd .adpimg img { margin: 0 -500%; }
+.tile-43 .adpimg img, .tile-86 .adpimg img, .tile-c9 .adpimg img, .tile-gc .adpimg img { margin: 0 -490%; }
+.tile-gb .adpimg img { margin: 0 -500%; }
+.tile-32 .adpimg img, .tile-64 .adpimg img, .tile-c8 .adpimg img { margin: 0 -490%; }
+.tile-85 .adpimg img, .tile-ga .adpimg img { margin: 0 -490%; }
+.tile-c7 .adpimg img { margin: 0 -490%; }
+.tile-g9 .adpimg img { margin: 0 -500%; }
+.tile-21 .adpimg img, .tile-42 .adpimg img, .tile-63 .adpimg img, .tile-84 .adpimg img, .tile-c6 .adpimg img, .tile-g8 .adpimg img { margin: 0 -485%; }
+.tile-g7 .adpimg img { margin: 0 -500%; }
+.tile-c5 .adpimg img { margin: 0 -480%; }
+.tile-83 .adpimg img, .tile-g6 .adpimg img { margin: 0 -480%; }
+.tile-31 .adpimg img, .tile-62 .adpimg img, .tile-c4 .adpimg img { margin: 0 -475%; }
+.tile-g5 .adpimg img { margin: 0 -480%; }
+.tile-41 .adpimg img, .tile-82 .adpimg img, .tile-c3 .adpimg img, .tile-g4 .adpimg img { margin: 0 -470%; }
+.tile-g3 .adpimg img { margin: 0 -460%; }
+.tile-61 .adpimg img, .tile-c2 .adpimg img { margin: 0 -450%; }
+.tile-81 .adpimg img, .tile-g2 .adpimg img { margin: 0 -440%; }
+.tile-c1 .adpimg img { margin: 0 -400%; }
+.tile-g1 .adpimg img { margin: 0 -380%; }
+/* horizontal adaptive images with aspect ratio 1/1 */
+/* The following lines are to make a virtual negative "margin-bottom" for the image equal to the height of the adaptive image (which is equal to the height of image part for the extra wide screens) minus the height of the currently visible part of the image. */
+.tile-11 .adpimg.horizontal-11 img, .tile-21 .adpimg.horizontal-11 img, .tile-22 .adpimg.horizontal-11 img, .tile-31 .adpimg.horizontal-11 img, .tile-32 .adpimg.horizontal-11 img, .tile-33 .adpimg.horizontal-11 img, .tile-41 .adpimg.horizontal-11 img, .tile-42 .adpimg.horizontal-11 img, .tile-43 .adpimg.horizontal-11 img, .tile-44 .adpimg.horizontal-11 img,
+.tile-61 .adpimg.horizontal-11 img, .tile-62 .adpimg.horizontal-11 img, .tile-63 .adpimg.horizontal-11 img, .tile-64 .adpimg.horizontal-11 img, .tile-65 .adpimg.horizontal-11 img, .tile-66 .adpimg.horizontal-11 img,
+.tile-81 .adpimg.horizontal-11 img, .tile-82 .adpimg.horizontal-11 img, .tile-83 .adpimg.horizontal-11 img, .tile-84 .adpimg.horizontal-11 img, .tile-85 .adpimg.horizontal-11 img, .tile-86 .adpimg.horizontal-11 img, .tile-87 .adpimg.horizontal-11 img, .tile-88 .adpimg.horizontal-11 img,
+.tile-c1 .adpimg.horizontal-11 img, .tile-c2 .adpimg.horizontal-11 img, .tile-c3 .adpimg.horizontal-11 img, .tile-c4 .adpimg.horizontal-11 img, .tile-c5 .adpimg.horizontal-11 img, .tile-c6 .adpimg.horizontal-11 img,
+.tile-c7 .adpimg.horizontal-11 img, .tile-c8 .adpimg.horizontal-11 img, .tile-c9 .adpimg.horizontal-11 img, .tile-ca .adpimg.horizontal-11 img, .tile-cb .adpimg.horizontal-11 img, .tile-cc .adpimg.horizontal-11 img,
+.tile-g1 .adpimg.horizontal-11 img, .tile-g2 .adpimg.horizontal-11 img, .tile-g3 .adpimg.horizontal-11 img, .tile-g4 .adpimg.horizontal-11 img, .tile-g5 .adpimg.horizontal-11 img, .tile-g6 .adpimg.horizontal-11 img, .tile-g7 .adpimg.horizontal-11 img, .tile-g8 .adpimg.horizontal-11 img,
+.tile-g9 .adpimg.horizontal-11 img, .tile-ga .adpimg.horizontal-11 img, .tile-gb .adpimg.horizontal-11 img, .tile-gc .adpimg.horizontal-11 img, .tile-gd .adpimg.horizontal-11 img, .tile-ge .adpimg.horizontal-11 img, .tile-gf .adpimg.horizontal-11 img, .tile-gg .adpimg.horizontal-11 img {
+  margin-bottom: 100%;
+}
+.tile-11 .adpimg.horizontal-11 .height-fix, .tile-22 .adpimg.horizontal-11 .height-fix, .tile-33 .adpimg.horizontal-11 .height-fix, .tile-44 .adpimg.horizontal-11 .height-fix, .tile-66 .adpimg.horizontal-11 .height-fix, .tile-88 .adpimg.horizontal-11 .height-fix, .tile-cc .adpimg.horizontal-11 .height-fix, .tile-gg .adpimg.horizontal-11 .height-fix { margin: 0 0 -1900px; }
+.tile-gf .adpimg.horizontal-11 .height-fix { margin: 0 0 -1780px; }
+.tile-cb .adpimg.horizontal-11 .height-fix { margin: 0 0 -1740px; }
+.tile-87 .adpimg.horizontal-11 .height-fix, .tile-ge .adpimg.horizontal-11 .height-fix { margin: 0 0 -1660px; }
+.tile-65 .adpimg.horizontal-11 .height-fix, .tile-ca .adpimg.horizontal-11 .height-fix { margin: 0 0 -1580px; }
+.tile-gd .adpimg.horizontal-11 .height-fix { margin: 0 0 -1540px; }
+.tile-43 .adpimg.horizontal-11 .height-fix, .tile-86 .adpimg.horizontal-11 .height-fix, .tile-c9 .adpimg.horizontal-11 .height-fix, .tile-gc .adpimg.horizontal-11 .height-fix { margin: 0 0 -1420px; }
+.tile-gb .adpimg.horizontal-11 .height-fix { margin: 0 0 -1300px; }
+.tile-32 .adpimg.horizontal-11 .height-fix, .tile-64 .adpimg.horizontal-11 .height-fix, .tile-c8 .adpimg.horizontal-11 .height-fix { margin: 0 0 -1260px; }
+.tile-85 .adpimg.horizontal-11 .height-fix, .tile-ga .adpimg.horizontal-11 .height-fix { margin: 0 0 -1180px; }
+.tile-c7 .adpimg.horizontal-11 .height-fix { margin: 0 0 -1100px; }
+.tile-g9 .adpimg.horizontal-11 .height-fix { margin: 0 0 -1060px; }
+.tile-21 .adpimg.horizontal-11 .height-fix, .tile-42 .adpimg.horizontal-11 .height-fix, .tile-63 .adpimg.horizontal-11 .height-fix, .tile-84 .adpimg.horizontal-11 .height-fix, .tile-c6 .adpimg.horizontal-11 .height-fix, .tile-g8 .adpimg.horizontal-11 .height-fix { margin: 0 0 -940px; }
+.tile-g7 .adpimg.horizontal-11 .height-fix { margin: 0 0 -820px; }
+.tile-c5 .adpimg.horizontal-11 .height-fix { margin: 0 0 -780px; }
+.tile-83 .adpimg.horizontal-11 .height-fix, .tile-g6 .adpimg.horizontal-11 .height-fix { margin: 0 0 -700px; }
+.tile-31 .adpimg.horizontal-11 .height-fix, .tile-62 .adpimg.horizontal-11 .height-fix, .tile-c4 .adpimg.horizontal-11 .height-fix { margin: 0 0 -620px; }
+.tile-g5 .adpimg.horizontal-11 .height-fix { margin: 0 0 -580px; }
+.tile-41 .adpimg.horizontal-11 .height-fix, .tile-82 .adpimg.horizontal-11 .height-fix, .tile-c3 .adpimg.horizontal-11 .height-fix, .tile-g4 .adpimg.horizontal-11 .height-fix { margin: 0 0 -460px; }
+.tile-g3 .adpimg.horizontal-11 .height-fix { margin: 0 0 -340px; }
+.tile-61 .adpimg.horizontal-11 .height-fix, .tile-c2 .adpimg.horizontal-11 .height-fix { margin: 0 0 -300px; }
+.tile-81 .adpimg.horizontal-11 .height-fix, .tile-g2 .adpimg.horizontal-11 .height-fix { margin: 0 0 -220px; }
+.tile-c1 .adpimg.horizontal-11 .height-fix { margin: 0 0 -140px; }
+.tile-g1 .adpimg.horizontal-11 .height-fix { margin: 0 0 -100px; }
+/* horizontal adaptive images with aspect ratio 3/4 */
+.tile-11 .adpimg.horizontal-43 img, .tile-21 .adpimg.horizontal-43 img, .tile-22 .adpimg.horizontal-43 img, .tile-31 .adpimg.horizontal-43 img, .tile-32 .adpimg.horizontal-43 img, .tile-33 .adpimg.horizontal-43 img, .tile-41 .adpimg.horizontal-43 img, .tile-42 .adpimg.horizontal-43 img, .tile-43 .adpimg.horizontal-43 img, .tile-44 .adpimg.horizontal-43 img,
+.tile-61 .adpimg.horizontal-43 img, .tile-62 .adpimg.horizontal-43 img, .tile-63 .adpimg.horizontal-43 img, .tile-64 .adpimg.horizontal-43 img, .tile-65 .adpimg.horizontal-43 img, .tile-66 .adpimg.horizontal-43 img,
+.tile-81 .adpimg.horizontal-43 img, .tile-82 .adpimg.horizontal-43 img, .tile-83 .adpimg.horizontal-43 img, .tile-84 .adpimg.horizontal-43 img, .tile-85 .adpimg.horizontal-43 img, .tile-86 .adpimg.horizontal-43 img, .tile-87 .adpimg.horizontal-43 img, .tile-88 .adpimg.horizontal-43 img,
+.tile-c1 .adpimg.horizontal-43 img, .tile-c2 .adpimg.horizontal-43 img, .tile-c3 .adpimg.horizontal-43 img, .tile-c4 .adpimg.horizontal-43 img, .tile-c5 .adpimg.horizontal-43 img, .tile-c6 .adpimg.horizontal-43 img,
+.tile-c7 .adpimg.horizontal-43 img, .tile-c8 .adpimg.horizontal-43 img, .tile-c9 .adpimg.horizontal-43 img, .tile-ca .adpimg.horizontal-43 img, .tile-cb .adpimg.horizontal-43 img, .tile-cc .adpimg.horizontal-43 img,
+.tile-g1 .adpimg.horizontal-43 img, .tile-g2 .adpimg.horizontal-43 img, .tile-g3 .adpimg.horizontal-43 img, .tile-g4 .adpimg.horizontal-43 img, .tile-g5 .adpimg.horizontal-43 img, .tile-g6 .adpimg.horizontal-43 img, .tile-g7 .adpimg.horizontal-43 img, .tile-g8 .adpimg.horizontal-43 img,
+.tile-g9 .adpimg.horizontal-43 img, .tile-ga .adpimg.horizontal-43 img, .tile-gb .adpimg.horizontal-43 img, .tile-gc .adpimg.horizontal-43 img, .tile-gd .adpimg.horizontal-43 img, .tile-ge .adpimg.horizontal-43 img, .tile-gf .adpimg.horizontal-43 img, .tile-gg .adpimg.horizontal-43 img {
+  margin-bottom: 75%;
+}
+.tile-11 .adpimg.horizontal-43 .height-fix, .tile-22 .adpimg.horizontal-43 .height-fix, .tile-33 .adpimg.horizontal-43 .height-fix, .tile-44 .adpimg.horizontal-43 .height-fix, .tile-66 .adpimg.horizontal-43 .height-fix, .tile-88 .adpimg.horizontal-43 .height-fix, .tile-cc .adpimg.horizontal-43 .height-fix, .tile-gg .adpimg.horizontal-43 .height-fix { margin: 0 0 -1425px; }
+.tile-gf .adpimg.horizontal-43 .height-fix { margin: 0 0 -1335px; }
+.tile-cb .adpimg.horizontal-43 .height-fix { margin: 0 0 -1305px; }
+.tile-87 .adpimg.horizontal-43 .height-fix, .tile-ge .adpimg.horizontal-43 .height-fix { margin: 0 0 -1245px; }
+.tile-65 .adpimg.horizontal-43 .height-fix, .tile-ca .adpimg.horizontal-43 .height-fix { margin: 0 0 -1185px; }
+.tile-gd .adpimg.horizontal-43 .height-fix { margin: 0 0 -1155px; }
+.tile-43 .adpimg.horizontal-43 .height-fix, .tile-86 .adpimg.horizontal-43 .height-fix, .tile-c9 .adpimg.horizontal-43 .height-fix, .tile-gc .adpimg.horizontal-43 .height-fix { margin: 0 0 -1065px; }
+.tile-gb .adpimg.horizontal-43 .height-fix { margin: 0 0 -975px; }
+.tile-32 .adpimg.horizontal-43 .height-fix, .tile-64 .adpimg.horizontal-43 .height-fix, .tile-c8 .adpimg.horizontal-43 .height-fix { margin: 0 0 -945px; }
+.tile-85 .adpimg.horizontal-43 .height-fix, .tile-ga .adpimg.horizontal-43 .height-fix { margin: 0 0 -885px; }
+.tile-c7 .adpimg.horizontal-43 .height-fix { margin: 0 0 -825px; }
+.tile-g9 .adpimg.horizontal-43 .height-fix { margin: 0 0 -795px; }
+.tile-21 .adpimg.horizontal-43 .height-fix, .tile-42 .adpimg.horizontal-43 .height-fix, .tile-63 .adpimg.horizontal-43 .height-fix, .tile-84 .adpimg.horizontal-43 .height-fix, .tile-c6 .adpimg.horizontal-43 .height-fix, .tile-g8 .adpimg.horizontal-43 .height-fix { margin: 0 0 -705px; }
+.tile-g7 .adpimg.horizontal-43 .height-fix { margin: 0 0 -615px; }
+.tile-c5 .adpimg.horizontal-43 .height-fix { margin: 0 0 -585px; }
+.tile-83 .adpimg.horizontal-43 .height-fix, .tile-g6 .adpimg.horizontal-43 .height-fix { margin: 0 0 -525px; }
+.tile-31 .adpimg.horizontal-43 .height-fix, .tile-62 .adpimg.horizontal-43 .height-fix, .tile-c4 .adpimg.horizontal-43 .height-fix { margin: 0 0 -465px; }
+.tile-g5 .adpimg.horizontal-43 .height-fix { margin: 0 0 -435px; }
+.tile-41 .adpimg.horizontal-43 .height-fix, .tile-82 .adpimg.horizontal-43 .height-fix, .tile-c3 .adpimg.horizontal-43 .height-fix, .tile-g4 .adpimg.horizontal-43 .height-fix { margin: 0 0 -345px; }
+.tile-g3 .adpimg.horizontal-43 .height-fix { margin: 0 0 -255px; }
+.tile-61 .adpimg.horizontal-43 .height-fix, .tile-c2 .adpimg.horizontal-43 .height-fix { margin: 0 0 -225px; }
+.tile-81 .adpimg.horizontal-43 .height-fix, .tile-g2 .adpimg.horizontal-43 .height-fix { margin: 0 0 -165px; }
+.tile-c1 .adpimg.horizontal-43 .height-fix { margin: 0 0 -105px; }
+.tile-g1 .adpimg.horizontal-43 .height-fix { margin: 0 0 -75px; }
+/* horizontal adaptive images with aspect ratio 9/16 */
+.tile-11 .adpimg.horizontal-g9 img, .tile-21 .adpimg.horizontal-g9 img, .tile-22 .adpimg.horizontal-g9 img, .tile-31 .adpimg.horizontal-g9 img, .tile-32 .adpimg.horizontal-g9 img, .tile-33 .adpimg.horizontal-g9 img, .tile-41 .adpimg.horizontal-g9 img, .tile-42 .adpimg.horizontal-g9 img, .tile-43 .adpimg.horizontal-g9 img, .tile-44 .adpimg.horizontal-g9 img,
+.tile-61 .adpimg.horizontal-g9 img, .tile-62 .adpimg.horizontal-g9 img, .tile-63 .adpimg.horizontal-g9 img, .tile-64 .adpimg.horizontal-g9 img, .tile-65 .adpimg.horizontal-g9 img, .tile-66 .adpimg.horizontal-g9 img,
+.tile-81 .adpimg.horizontal-g9 img, .tile-82 .adpimg.horizontal-g9 img, .tile-83 .adpimg.horizontal-g9 img, .tile-84 .adpimg.horizontal-g9 img, .tile-85 .adpimg.horizontal-g9 img, .tile-86 .adpimg.horizontal-g9 img, .tile-87 .adpimg.horizontal-g9 img, .tile-88 .adpimg.horizontal-g9 img,
+.tile-c1 .adpimg.horizontal-g9 img, .tile-c2 .adpimg.horizontal-g9 img, .tile-c3 .adpimg.horizontal-g9 img, .tile-c4 .adpimg.horizontal-g9 img, .tile-c5 .adpimg.horizontal-g9 img, .tile-c6 .adpimg.horizontal-g9 img,
+.tile-c7 .adpimg.horizontal-g9 img, .tile-c8 .adpimg.horizontal-g9 img, .tile-c9 .adpimg.horizontal-g9 img, .tile-ca .adpimg.horizontal-g9 img, .tile-cb .adpimg.horizontal-g9 img, .tile-cc .adpimg.horizontal-g9 img,
+.tile-g1 .adpimg.horizontal-g9 img, .tile-g2 .adpimg.horizontal-g9 img, .tile-g3 .adpimg.horizontal-g9 img, .tile-g4 .adpimg.horizontal-g9 img, .tile-g5 .adpimg.horizontal-g9 img, .tile-g6 .adpimg.horizontal-g9 img, .tile-g7 .adpimg.horizontal-g9 img, .tile-g8 .adpimg.horizontal-g9 img,
+.tile-g9 .adpimg.horizontal-g9 img, .tile-ga .adpimg.horizontal-g9 img, .tile-gb .adpimg.horizontal-g9 img, .tile-gc .adpimg.horizontal-g9 img, .tile-gd .adpimg.horizontal-g9 img, .tile-ge .adpimg.horizontal-g9 img, .tile-gf .adpimg.horizontal-g9 img, .tile-gg .adpimg.horizontal-g9 img {
+  margin-bottom: 56.25%;
+}
+.tile-11 .adpimg.horizontal-g9 .height-fix, .tile-22 .adpimg.horizontal-g9 .height-fix, .tile-33 .adpimg.horizontal-g9 .height-fix, .tile-44 .adpimg.horizontal-g9 .height-fix, .tile-66 .adpimg.horizontal-g9 .height-fix, .tile-88 .adpimg.horizontal-g9 .height-fix, .tile-cc .adpimg.horizontal-g9 .height-fix, .tile-gg .adpimg.horizontal-g9 .height-fix { margin: 0 0 -1068.75px; }
+.tile-gf .adpimg.horizontal-g9 .height-fix { margin: 0 0 -1001.25px; }
+.tile-cb .adpimg.horizontal-g9 .height-fix { margin: 0 0 -978.75px; }
+.tile-87 .adpimg.horizontal-g9 .height-fix, .tile-ge .adpimg.horizontal-g9 .height-fix { margin: 0 0 -933.75px; }
+.tile-65 .adpimg.horizontal-g9 .height-fix, .tile-ca .adpimg.horizontal-g9 .height-fix { margin: 0 0 -888.75px; }
+.tile-gd .adpimg.horizontal-g9 .height-fix { margin: 0 0 -866.25; }
+.tile-43 .adpimg.horizontal-g9 .height-fix, .tile-86 .adpimg.horizontal-g9 .height-fix, .tile-c9 .adpimg.horizontal-g9 .height-fix, .tile-gc .adpimg.horizontal-g9 .height-fix { margin: 0 0 -798.75px; }
+.tile-gb .adpimg.horizontal-g9 .height-fix { margin: 0 0 -731.25px; }
+.tile-32 .adpimg.horizontal-g9 .height-fix, .tile-64 .adpimg.horizontal-g9 .height-fix, .tile-c8 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -708.75px; }
+.tile-85 .adpimg.horizontal-g9 .height-fix, .tile-ga .adpimg.horizontal-g9 .height-fix { margin: 0 0 -663.75px; }
+.tile-c7 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -618.75px; }
+.tile-g9 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -596.25px; }
+.tile-21 .adpimg.horizontal-g9 .height-fix, .tile-42 .adpimg.horizontal-g9 .height-fix, .tile-63 .adpimg.horizontal-g9 .height-fix, .tile-84 .adpimg.horizontal-g9 .height-fix, .tile-c6 .adpimg.horizontal-g9 .height-fix, .tile-g8 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -528.75px; }
+.tile-g7 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -461.25px; }
+.tile-c5 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -438.75px; }
+.tile-83 .adpimg.horizontal-g9 .height-fix, .tile-g6 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -393.75px; }
+.tile-31 .adpimg.horizontal-g9 .height-fix, .tile-62 .adpimg.horizontal-g9 .height-fix, .tile-c4 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -348.75px; }
+.tile-g5 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -326.25px; }
+.tile-41 .adpimg.horizontal-g9 .height-fix, .tile-82 .adpimg.horizontal-g9 .height-fix, .tile-c3 .adpimg.horizontal-g9 .height-fix, .tile-g4 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -258.75px; }
+.tile-g3 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -191.25px; }
+.tile-61 .adpimg.horizontal-g9 .height-fix, .tile-c2 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -168.75px; }
+.tile-81 .adpimg.horizontal-g9 .height-fix, .tile-g2 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -123.75px; }
+.tile-c1 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -78.75px; }
+.tile-g1 .adpimg.horizontal-g9 .height-fix { margin: 0 0 -56.25px; }
+/* vertical adaptive images with aspect ratio 1/1 */
+/* The following lines are to make a virtual negative "margin-bottom" for the image equal to the height of the adaptive image (which is equal to the height of  whole image) minus the position of the bottom of the currently visible part of the image. */
+/* The negative "margin-top" is equal to the position of the top of the currently visible part of the image. */
+.tile-11 .adpimg.vertical-11 img, .tile-22 .adpimg.vertical-11 img, .tile-33 .adpimg.vertical-11 img, .tile-44 .adpimg.vertical-11 img, .tile-66 .adpimg.vertical-11 img, .tile-88 .adpimg.vertical-11 img, .tile-cc .adpimg.vertical-11 img, .tile-gg .adpimg.vertical-11 img { margin: -495% 0 595%; }
+.tile-11 .adpimg.vertical-11 .height-fix, .tile-22 .adpimg.vertical-11 .height-fix, .tile-33 .adpimg.vertical-11 .height-fix, .tile-44 .adpimg.vertical-11 .height-fix, .tile-66 .adpimg.vertical-11 .height-fix, .tile-88 .adpimg.vertical-11 .height-fix, .tile-cc .adpimg.vertical-11 .height-fix, .tile-gg .adpimg.vertical-11 .height-fix { margin: 0 0 -11305px; }
+.tile-gf .adpimg.vertical-11 img { margin: -500% 0 600%; }
+.tile-gf .adpimg.vertical-11 .height-fix { margin: 0 0 -10680px; }
+.tile-cb .adpimg.vertical-11 img { margin: -495% 0 595%; }
+.tile-cb .adpimg.vertical-11 .height-fix { margin: 0 0 -10353px; }
+.tile-87 .adpimg.vertical-11 img, .tile-ge .adpimg.vertical-11 img { margin: -500% 0 600%; }
+.tile-87 .adpimg.vertical-11 .height-fix, .tile-ge .adpimg.vertical-11 .height-fix { margin: 0 0 -9960px; }
+.tile-65 .adpimg.vertical-11 img, .tile-ca .adpimg.vertical-11 img { margin: -490% 0 590%; }
+.tile-65 .adpimg.vertical-11 .height-fix, .tile-ca .adpimg.vertical-11 .height-fix { margin: 0 0 -9322px; }
+.tile-gd .adpimg.vertical-11 img { margin: -500% 0 600%; }
+.tile-gd .adpimg.vertical-11 .height-fix { margin: 0 0 -9240px; }
+.tile-43 .adpimg.vertical-11 img, .tile-86 .adpimg.vertical-11 img, .tile-c9 .adpimg.vertical-11 img, .tile-gc .adpimg.vertical-11 img { margin: -490% 0 590%; }
+.tile-43 .adpimg.vertical-11 .height-fix, .tile-86 .adpimg.vertical-11 .height-fix, .tile-c9 .adpimg.vertical-11 .height-fix, .tile-gc .adpimg.vertical-11 .height-fix { margin: 0 0 -8378px; }
+.tile-gb .adpimg.vertical-11 img { margin: -500% 0 600%; }
+.tile-gb .adpimg.vertical-11 .height-fix { margin: 0 0 -7800px; }
+.tile-32 .adpimg.vertical-11 img, .tile-64 .adpimg.vertical-11 img, .tile-c8 .adpimg.vertical-11 img { margin: -490% 0 590%; }
+.tile-32 .adpimg.vertical-11 .height-fix, .tile-64 .adpimg.vertical-11 .height-fix, .tile-c8 .adpimg.vertical-11 .height-fix { margin: 0 0 -7434px; }
+.tile-85 .adpimg.vertical-11 img, .tile-ga .adpimg.vertical-11 img { margin: -490% 0 590%; }
+.tile-85 .adpimg.vertical-11 .height-fix, .tile-ga .adpimg.vertical-11 .height-fix { margin: 0 0 -6962px; }
+.tile-c7 .adpimg.vertical-11 img { margin: -490% 0 590%; }
+.tile-c7 .adpimg.vertical-11 .height-fix { margin: 0 0 -6490px; }
+.tile-g9 .adpimg.vertical-11 img { margin: -500% 0 600%; }
+.tile-g9 .adpimg.vertical-11 .height-fix { margin: 0 0 -6360px; }
+.tile-21 .adpimg.vertical-11 img, .tile-42 .adpimg.vertical-11 img, .tile-63 .adpimg.vertical-11 img, .tile-84 .adpimg.vertical-11 img, .tile-c6 .adpimg.vertical-11 img, .tile-g8 .adpimg.vertical-11 img { margin: -485% 0 585%; }
+.tile-21 .adpimg.vertical-11 .height-fix, .tile-42 .adpimg.vertical-11 .height-fix, .tile-63 .adpimg.vertical-11 .height-fix, .tile-84 .adpimg.vertical-11 .height-fix, .tile-c6 .adpimg.vertical-11 .height-fix, .tile-g8 .adpimg.vertical-11 .height-fix { margin: 0 0 -5499px; }
+.tile-g7 .adpimg.vertical-11 img { margin: -500% 0 600%; }
+.tile-g7 .adpimg.vertical-11 .height-fix { margin: 0 0 -4920px; }
+.tile-c5 .adpimg.vertical-11 img { margin: -480% 0 580%; }
+.tile-c5 .adpimg.vertical-11 .height-fix { margin: 0 0 -4524px; }
+.tile-83 .adpimg.vertical-11 img, .tile-g6 .adpimg.vertical-11 img { margin: -480% 0 580%; }
+.tile-83 .adpimg.vertical-11 .height-fix, .tile-g6 .adpimg.vertical-11 .height-fix { margin: 0 0 -4060px; }
+.tile-31 .adpimg.vertical-11 img, .tile-62 .adpimg.vertical-11 img, .tile-c4 .adpimg.vertical-11 img { margin: -475% 0 575%; }
+.tile-31 .adpimg.vertical-11 .height-fix, .tile-62 .adpimg.vertical-11 .height-fix, .tile-c4 .adpimg.vertical-11 .height-fix { margin: 0 0 -3565px; }
+.tile-g5 .adpimg.vertical-11 img { margin: -480% 0 580%; }
+.tile-g5 .adpimg.vertical-11 .height-fix { margin: 0 0 -3364px; }
+.tile-41 .adpimg.vertical-11 img, .tile-82 .adpimg.vertical-11 img, .tile-c3 .adpimg.vertical-11 img, .tile-g4 .adpimg.vertical-11 img { margin: -470% 0 570%; }
+.tile-41 .adpimg.vertical-11 .height-fix, .tile-82 .adpimg.vertical-11 .height-fix, .tile-c3 .adpimg.vertical-11 .height-fix, .tile-g4 .adpimg.vertical-11 .height-fix { margin: 0 0 -2622px; }
+.tile-g3 .adpimg.vertical-11 img { margin: -460% 0 560%; }
+.tile-g3 .adpimg.vertical-11 .height-fix { margin: 0 0 -1904px; }
+.tile-61 .adpimg.vertical-11 img, .tile-c2 .adpimg.vertical-11 img { margin: -450% 0 550%; }
+.tile-61 .adpimg.vertical-11 .height-fix, .tile-c2 .adpimg.vertical-11 .height-fix { margin: 0 0 -1650px; }
+.tile-81 .adpimg.vertical-11 img, .tile-g2 .adpimg.vertical-11 img { margin: -440% 0 540%; }
+.tile-81 .adpimg.vertical-11 .height-fix, .tile-g2 .adpimg.vertical-11 .height-fix { margin: 0 0 -1188px; }
+.tile-c1 .adpimg.vertical-11 img { margin: -400% 0 500%; }
+.tile-c1 .adpimg.vertical-11 .height-fix { margin: 0 0 -700px; }
+.tile-g1 .adpimg.vertical-11 img { margin: -380% 0 480%; }
+.tile-g1 .adpimg.vertical-11 .height-fix { margin: 0 0 -480px; }
+/* vertical adaptive images with aspect ratio 3/4 */
+.tile-11 .adpimg.vertical-43 img, .tile-22 .adpimg.vertical-43 img, .tile-33 .adpimg.vertical-43 img, .tile-44 .adpimg.vertical-43 img, .tile-66 .adpimg.vertical-43 img, .tile-88 .adpimg.vertical-43 img, .tile-cc .adpimg.vertical-43 img, .tile-gg .adpimg.vertical-43 img { margin: -375% 0 450%; }
+.tile-11 .adpimg.vertical-43 .height-fix, .tile-22 .adpimg.vertical-43 .height-fix, .tile-33 .adpimg.vertical-43 .height-fix, .tile-44 .adpimg.vertical-43 .height-fix, .tile-66 .adpimg.vertical-43 .height-fix, .tile-88 .adpimg.vertical-43 .height-fix, .tile-cc .adpimg.vertical-43 .height-fix, .tile-gg .adpimg.vertical-43 .height-fix { margin: 0 0 -8551px; }
+.tile-gf .adpimg.vertical-43 img { margin: -400% 0 475%; }
+.tile-gf .adpimg.vertical-43 .height-fix { margin: 0 0 -8456px; }
+.tile-cb .adpimg.vertical-43 img { margin: -375% 0 450%; }
+.tile-cb .adpimg.vertical-43 .height-fix { margin: 0 0 -7831px; }
+.tile-87 .adpimg.vertical-43 img, .tile-ge .adpimg.vertical-43 img { margin: -380% 0 455%; }
+.tile-87 .adpimg.vertical-43 .height-fix, .tile-ge .adpimg.vertical-43 .height-fix { margin: 0 0 -7554px; }
+.tile-65 .adpimg.vertical-43 img, .tile-ca .adpimg.vertical-43 img { margin: -375% 0 450%; }
+.tile-65 .adpimg.vertical-43 .height-fix, .tile-ca .adpimg.vertical-43 .height-fix { margin: 0 0 -7111px; }
+.tile-gd .adpimg.vertical-43 img { margin: -400% 0 475%; }
+.tile-gd .adpimg.vertical-43 .height-fix { margin: 0 0 -7316px; }
+.tile-43 .adpimg.vertical-43 img, .tile-86 .adpimg.vertical-43 img, .tile-c9 .adpimg.vertical-43 img, .tile-gc .adpimg.vertical-43 img { margin: -375% 0 450%; }
+.tile-43 .adpimg.vertical-43 .height-fix, .tile-86 .adpimg.vertical-43 .height-fix, .tile-c9 .adpimg.vertical-43 .height-fix, .tile-gc .adpimg.vertical-43 .height-fix { margin: 0 0 -6391px; }
+.tile-gb .adpimg.vertical-43 img { margin: -400% 0 475%; }
+.tile-gb .adpimg.vertical-43 .height-fix { margin: 0 0 -6176px; }
+.tile-32 .adpimg.vertical-43 img, .tile-64 .adpimg.vertical-43 img, .tile-c8 .adpimg.vertical-43 img { margin: -375% 0 450%; }
+.tile-32 .adpimg.vertical-43 .height-fix, .tile-64 .adpimg.vertical-43 .height-fix, .tile-c8 .adpimg.vertical-43 .height-fix { margin: 0 0 -5671px; }
+.tile-85 .adpimg.vertical-43 img, .tile-ga .adpimg.vertical-43 img { margin: -380% 0 455%; }
+.tile-85 .adpimg.vertical-43 .height-fix, .tile-ga .adpimg.vertical-43 .height-fix { margin: 0 0 -5370px; }
+.tile-c7 .adpimg.vertical-43 img { margin: -370% 0 445%; }
+.tile-c7 .adpimg.vertical-43 .height-fix { margin: 0 0 -4896px; }
+.tile-g9 .adpimg.vertical-43 img { margin: -400% 0 475%; }
+.tile-g9 .adpimg.vertical-43 .height-fix { margin: 0 0 -5036px; }
+.tile-21 .adpimg.vertical-43 img, .tile-42 .adpimg.vertical-43 img, .tile-63 .adpimg.vertical-43 img, .tile-84 .adpimg.vertical-43 img, .tile-c6 .adpimg.vertical-43 img, .tile-g8 .adpimg.vertical-43 img { margin: -370% 0 445%; }
+.tile-21 .adpimg.vertical-43 .height-fix, .tile-42 .adpimg.vertical-43 .height-fix, .tile-63 .adpimg.vertical-43 .height-fix, .tile-84 .adpimg.vertical-43 .height-fix, .tile-c6 .adpimg.vertical-43 .height-fix, .tile-g8 .adpimg.vertical-43 .height-fix { margin: 0 0 -4184px; }
+.tile-g7 .adpimg.vertical-43 img { margin: -400% 0 475%; }
+.tile-g7 .adpimg.vertical-43 .height-fix { margin: 0 0 -3896px; }
+.tile-c5 .adpimg.vertical-43 img { margin: -365% 0 440%; }
+.tile-c5 .adpimg.vertical-43 .height-fix { margin: 0 0 -3433px; }
+.tile-83 .adpimg.vertical-43 img, .tile-g6 .adpimg.vertical-43 img { margin: -370% 0 445%; }
+.tile-83 .adpimg.vertical-43 .height-fix, .tile-g6 .adpimg.vertical-43 .height-fix { margin: 0 0 -3116px; }
+.tile-31 .adpimg.vertical-43 img, .tile-62 .adpimg.vertical-43 img, .tile-c4 .adpimg.vertical-43 img { margin: -365% 0 440%; }
+.tile-31 .adpimg.vertical-43 .height-fix, .tile-62 .adpimg.vertical-43 .height-fix, .tile-c4 .adpimg.vertical-43 .height-fix { margin: 0 0 -2729px; }
+.tile-g5 .adpimg.vertical-43 img { margin: -380% 0 455%; }
+.tile-g5 .adpimg.vertical-43 .height-fix { margin: 0 0 -2640px; }
+.tile-41 .adpimg.vertical-43 img, .tile-82 .adpimg.vertical-43 img, .tile-c3 .adpimg.vertical-43 img, .tile-g4 .adpimg.vertical-43 img { margin: -360% 0 435%; }
+.tile-41 .adpimg.vertical-43 .height-fix, .tile-82 .adpimg.vertical-43 .height-fix, .tile-c3 .adpimg.vertical-43 .height-fix, .tile-g4 .adpimg.vertical-43 .height-fix { margin: 0 0 -2002px; }
+.tile-g3 .adpimg.vertical-43 img { margin: -380% 0 455%; }
+.tile-g3 .adpimg.vertical-43 .height-fix { margin: 0 0 -1548px; }
+.tile-61 .adpimg.vertical-43 img, .tile-c2 .adpimg.vertical-43 img { margin: -345% 0 420%; }
+.tile-61 .adpimg.vertical-43 .height-fix, .tile-c2 .adpimg.vertical-43 .height-fix { margin: 0 0 -1261px; }
+.tile-81 .adpimg.vertical-43 img, .tile-g2 .adpimg.vertical-43 img { margin: -340% 0 415%; }
+.tile-81 .adpimg.vertical-43 .height-fix, .tile-g2 .adpimg.vertical-43 .height-fix { margin: 0 0 -914px; }
+.tile-c1 .adpimg.vertical-43 img { margin: -305% 0 380%; }
+.tile-c1 .adpimg.vertical-43 .height-fix { margin: 0 0 -533px; }
+.tile-g1 .adpimg.vertical-43 img { margin: -300% 0 375%; }
+.tile-g1 .adpimg.vertical-43 .height-fix { margin: 0 0 -376px; }
+/* vertical adaptive images with aspect ratio 9/16 */
+.tile-11 .adpimg.vertical-g9 img, .tile-22 .adpimg.vertical-g9 img, .tile-33 .adpimg.vertical-g9 img, .tile-44 .adpimg.vertical-g9 img, .tile-66 .adpimg.vertical-g9 img, .tile-88 .adpimg.vertical-g9 img, .tile-cc .adpimg.vertical-g9 img, .tile-gg .adpimg.vertical-g9 img { margin: -285% 0 341.25%; }
+.tile-11 .adpimg.vertical-g9 .height-fix, .tile-22 .adpimg.vertical-g9 .height-fix, .tile-33 .adpimg.vertical-g9 .height-fix, .tile-44 .adpimg.vertical-g9 .height-fix, .tile-66 .adpimg.vertical-g9 .height-fix, .tile-88 .adpimg.vertical-g9 .height-fix, .tile-cc .adpimg.vertical-g9 .height-fix, .tile-gg .adpimg.vertical-g9 .height-fix { margin: 0 0 -6483px; }
+.tile-gf .adpimg.vertical-g9 img { margin: -300% 0 356.25%; }
+.tile-gf .adpimg.vertical-g9 .height-fix { margin: 0 0 -6341px; }
+.tile-cb .adpimg.vertical-g9 img { margin: -285% 0 341.25%; }
+.tile-cb .adpimg.vertical-g9 .height-fix { margin: 0 0 -5937px; }
+.tile-87 .adpimg.vertical-g9 img, .tile-ge .adpimg.vertical-g9 img { margin: -290% 0 346.25%; }
+.tile-87 .adpimg.vertical-g9 .height-fix, .tile-ge .adpimg.vertical-g9 .height-fix { margin: 0 0 -5747px; }
+.tile-65 .adpimg.vertical-g9 img, .tile-ca .adpimg.vertical-g9 img { margin: -285% 0 341.25%; }
+.tile-65 .adpimg.vertical-g9 .height-fix, .tile-ca .adpimg.vertical-g9 .height-fix { margin: 0 0 -5391px; }
+.tile-gd .adpimg.vertical-g9 img { margin: -300% 0 356.25%; }
+.tile-gd .adpimg.vertical-g9 .height-fix { margin: 0 0 -5486px; }
+.tile-43 .adpimg.vertical-g9 img, .tile-86 .adpimg.vertical-g9 img, .tile-c9 .adpimg.vertical-g9 img, .tile-gc .adpimg.vertical-g9 img { margin: -285% 0 341.25%; }
+.tile-43 .adpimg.vertical-g9 .height-fix, .tile-86 .adpimg.vertical-g9 .height-fix, .tile-c9 .adpimg.vertical-g9 .height-fix, .tile-gc .adpimg.vertical-g9 .height-fix { margin: 0 0 -4845px; }
+.tile-gb .adpimg.vertical-g9 img { margin: -300% 0 356.25%; }
+.tile-gb .adpimg.vertical-g9 .height-fix { margin: 0 0 -4631px; }
+.tile-32 .adpimg.vertical-g9 img, .tile-64 .adpimg.vertical-g9 img, .tile-c8 .adpimg.vertical-g9 img { margin: -280% 0 336.25%; }
+.tile-32 .adpimg.vertical-g9 .height-fix, .tile-64 .adpimg.vertical-g9 .height-fix, .tile-c8 .adpimg.vertical-g9 .height-fix { margin: 0 0 -4236px; }
+.tile-85 .adpimg.vertical-g9 img, .tile-ga .adpimg.vertical-g9 img { margin: -290% 0 346.25%; }
+.tile-85 .adpimg.vertical-g9 .height-fix, .tile-ga .adpimg.vertical-g9 .height-fix { margin: 0 0 -4085px; }
+.tile-c7 .adpimg.vertical-g9 img { margin: -280% 0 336.25%; }
+.tile-c7 .adpimg.vertical-g9 .height-fix { margin: 0 0 -3698px; }
+.tile-g9 .adpimg.vertical-g9 img { margin: -300% 0 356.25%; }
+.tile-g9 .adpimg.vertical-g9 .height-fix { margin: 0 0 -3776px; }
+.tile-21 .adpimg.vertical-g9 img, .tile-42 .adpimg.vertical-g9 img, .tile-63 .adpimg.vertical-g9 img, .tile-84 .adpimg.vertical-g9 img, .tile-c6 .adpimg.vertical-g9 img, .tile-g8 .adpimg.vertical-g9 img { margin: -280% 0 336.25%; }
+.tile-21 .adpimg.vertical-g9 .height-fix, .tile-42 .adpimg.vertical-g9 .height-fix, .tile-63 .adpimg.vertical-g9 .height-fix, .tile-84 .adpimg.vertical-g9 .height-fix, .tile-c6 .adpimg.vertical-g9 .height-fix, .tile-g8 .adpimg.vertical-g9 .height-fix { margin: 0 0 -3160px; }
+.tile-g7 .adpimg.vertical-g9 img { margin: -300% 0 356.25%; }
+.tile-g7 .adpimg.vertical-g9 .height-fix { margin: 0 0 -2921px; }
+.tile-c5 .adpimg.vertical-g9 img { margin: -275% 0 331.25%; }
+.tile-c5 .adpimg.vertical-g9 .height-fix { margin: 0 0 -2583px; }
+.tile-83 .adpimg.vertical-g9 img, .tile-g6 .adpimg.vertical-g9 img { margin: -280% 0 336.25%; }
+.tile-83 .adpimg.vertical-g9 .height-fix, .tile-g6 .adpimg.vertical-g9 .height-fix { margin: 0 0 -2353px; }
+.tile-31 .adpimg.vertical-g9 img, .tile-62 .adpimg.vertical-g9 img, .tile-c4 .adpimg.vertical-g9 img { margin: -275% 0 331.25%; }
+.tile-31 .adpimg.vertical-g9 .height-fix, .tile-62 .adpimg.vertical-g9 .height-fix, .tile-c4 .adpimg.vertical-g9 .height-fix { margin: 0 0 -2053px; }
+.tile-g5 .adpimg.vertical-g9 img { margin: -300% 0 356.25%; }
+.tile-g5 .adpimg.vertical-g9 .height-fix { margin: 0 0 -2066px; }
+.tile-41 .adpimg.vertical-g9 img, .tile-82 .adpimg.vertical-g9 img, .tile-c3 .adpimg.vertical-g9 img, .tile-g4 .adpimg.vertical-g9 img { margin: -270% 0 326.25%; }
+.tile-41 .adpimg.vertical-g9 .height-fix, .tile-82 .adpimg.vertical-g9 .height-fix, .tile-c3 .adpimg.vertical-g9 .height-fix, .tile-g4 .adpimg.vertical-g9 .height-fix { margin: 0 0 -1500px; }
+.tile-g3 .adpimg.vertical-g9 img { margin: -280% 0 336.25%; }
+.tile-g3 .adpimg.vertical-g9 .height-fix { margin: 0 0 -1143px; }
+.tile-61 .adpimg.vertical-g9 img, .tile-c2 .adpimg.vertical-g9 img { margin: -260% 0 316.25%; }
+.tile-61 .adpimg.vertical-g9 .height-fix, .tile-c2 .adpimg.vertical-g9 .height-fix { margin: 0 0 -948px; }
+.tile-81 .adpimg.vertical-g9 img, .tile-g2 .adpimg.vertical-g9 img { margin: -260% 0 316.25%; }
+.tile-81 .adpimg.vertical-g9 .height-fix, .tile-g2 .adpimg.vertical-g9 .height-fix { margin: 0 0 -695px; }
+.tile-c1 .adpimg.vertical-g9 img { margin: -230% 0 286.25%; }
+.tile-c1 .adpimg.vertical-g9 .height-fix { margin: 0 0 -400px; }
+.tile-g1 .adpimg.vertical-g9 img { margin: -240% 0 296.25%; }
+.tile-g1 .adpimg.vertical-g9 .height-fix { margin: 0 0 -296px; }

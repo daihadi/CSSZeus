@@ -1,0 +1,42 @@
+/**
+ * CSSZeus is a CSS framework providing some responsive web design tools.
+ * CSSZeus is free software and open source under GNU GPLv3 license.
+ * Copyright (C) 2013 Hadi Sadeqi
+ * see the LICENSE section of README.md delivered with library or get from http://cssze.us/resources/README.md
+ * visit us at http://cssze.us/
+ */
+
+body .adaptive .tile-11, body .adaptive .tile-21, body .adaptive .tile-22, body .adaptive .tile-31, body .adaptive .tile-32, body .adaptive .tile-33, body .adaptive .tile-41, body .adaptive .tile-42, body .adaptive .tile-43, body .adaptive .tile-44,
+body .adaptive .tile-61, body .adaptive .tile-62, body .adaptive .tile-63, body .adaptive .tile-64, body .adaptive .tile-65, body .adaptive .tile-66,
+body .adaptive .tile-81, body .adaptive .tile-82, body .adaptive .tile-83, body .adaptive .tile-84, body .adaptive .tile-85, body .adaptive .tile-86, body .adaptive .tile-87, body .adaptive .tile-88,
+body .adaptive .tile-c1, body .adaptive .tile-c2, body .adaptive .tile-c3, body .adaptive .tile-c4, body .adaptive .tile-c5, body .adaptive .tile-c6,
+body .adaptive .tile-c7, body .adaptive .tile-c8, body .adaptive .tile-c9, body .adaptive .tile-ca, body .adaptive .tile-cb, body .adaptive .tile-cc,
+body .adaptive .tile-g1, body .adaptive .tile-g2, body .adaptive .tile-g3, body .adaptive .tile-g4, body .adaptive .tile-g5, body .adaptive .tile-g6, body .adaptive .tile-g7, body .adaptive .tile-g8,
+body .adaptive .tile-g9, body .adaptive .tile-ga, body .adaptive .tile-gb, body .adaptive .tile-gc, body .adaptive .tile-gd, body .adaptive .tile-ge, body .adaptive .tile-gf, body .adaptive .tile-gg {
+  display: block;
+  width: auto;
+}
+body .adaptive {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+body .adaptive .wrapper {
+  display: block;
+  position: static;
+}
+body .adaptive .adaptor, .rspimg, .adpimg {
+  display: none;
+}
+body .adaptive .tiles {
+  position: static;
+  width: auto;
+  left: auto;
+  right: auto;
+  top: auto;
+  margin: 0;
+}
+.tilec {
+  width: auto;
+  overflow: hidden;
+}
