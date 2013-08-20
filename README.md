@@ -120,8 +120,9 @@ LICENSE
     along with this program.  If not, see <http://www.gnu.org/licenses/>
   
   * If you want to contribute to the source code development contact us
-  at github: 
-  * If you want to contact the author, send an email to: 
+  at github: https://github.com/HadiSadeqi/CSSZeus
+  * If you want to contact the author, send an email to:
+  hadi-sadeqi@cssze.us
 
 INSTALL
 ========================================================================
