@@ -17,18 +17,23 @@ useful.
 
 FEATURES
 ========================================================================
-1. We didn't use mediaquery or javascript for our basic layout
-  implementation to make it more cross-browser compatible. The only use
-  of mediaquery in this framework was for fluid.css because we believe
-  fluid layout is for smart phones which support mediaqueries naturaly.
-2. Since this framework is tested on many of browsers and sizes, it
+1. Responsive layout (7 fluid grids: 2, 3, 4, 6, 8, 12, and 16 splits)
+2. Addaptive layout (6 break points: @480, @720, @960, @1200, @1440,
+  @1920 pixels)
+3. Progressive Enhancement with delivering smaller images first.
+4. We didn't use mediaquery or javascript for
+  our basic layout implementation to make it more cross-browser
+  compatible. The only use of mediaquery in this framework was for
+  fluid.css because we believe fluid layout is for smart phones which
+  support mediaqueries naturaly.
+5. Since this framework is tested on many of browsers and sizes, it
   makes your life easy as an designer.
-3. CSSZeus is easy to implement:
+6. CSSZeus is easy to implement:
     - Just add main.css to your HEAD section,
     - Enable required modules by just removing 3 characters for each
       one,
     - And finally copy snippets to your BODY section.
-4. This software is 100% free for commercial use. We believe the main
+7. This software is 100% free for commercial use. We believe the main
   feature of CSSZeus is its being opensource. Commit to git to help us
   to develope this project if:
     - you are able to write better codes,
@@ -38,22 +43,22 @@ FEATURES
     - you could publicize it more,
     - or even you have a good idea,
     - or anything else.
-5. Implementation of adaptive images is made easy:
+8. Implementation of adaptive images is made easy:
     - Just read the cheatsheet and find your required image placemnets,
     - Then make an image containing defferent versions of your graphical
       item placed at their specified spots.
-6. Also image sprites are ready to use:
+9. Also image sprites are ready to use:
     - Merge adaptive images with the same tile size into a single image
       file according to the instruction descibed in the cheatsheet.
     - Then just add '.sprite-?' classes to each one which makes them
       show the specified image.
-7. Complex layouts are easy to make too: Just ommit '.tilec' and append
+10. Complex layouts are easy to make too: Just ommit '.tilec' and append
   layouts continuesly into each other. The only important limitation is
   that inner tiles should be smaller than outer ones.
-8. Usage of defferent splites side by side is possible as CSSZeus
+11. Usage of defferent splites side by side is possible as CSSZeus
   uses no container that limits your content column to be devided by
   a constant number.
-9. Understanding the meaning of the tiles are very simple and easy:
+12. Understanding the meaning of the tiles are very simple and easy:
   '.tile-xy' covers y/x of page width and its '.tilec' covers its width
   minus 20px. Pay attention to these points:
     a) Always, even in appended layout, calculate based on page width,
@@ -63,15 +68,20 @@ FEATURES
     c) Since 20 pixel margin is because of using '.tilec' in '.tile-xy',
       there is no margin when you are appending layouts but for the last
       '.tile-xy' that contains content.
-10. No server side programming is required. There is no required CSS
+13. No server side programming is required. There is no required CSS
   class for the first and the last columns of the content, and the tiles
   after covering the page width (or the width of the outer '.tile-xy')
-  completely will arrange at the next row for layouting.
-11. Using vertical-align CSS property makes it possible for the tiles to
-  make content alignment easier.
-12. removing or changing margin and padding of '.tilec' is available,
+completely will arrange at the next row for layouting.
+14. Using vertical-align CSS property makes it possible for the tiles to
+  make content alignment easier. Use of "display: inline-block" (instead
+  of float) provides better content arrangement.
+15. removing or changing margin and padding of '.tilec' is available,
   and won't damage the designed layout. But read more about it in the
   CAUTION section.
+16. Included GZipped
+17. Debug ready
+18. Modular
+19. Consider http://cssze.us as an example.
 
 CAUTION
 ========================================================================
@@ -98,6 +108,9 @@ CAUTION
 4. We didn't gzip compress main.css because it may be modified to
   enable or disable modules. If you want to compress it, remember to
   recompress it after any modifications.
+5. You are to comment out (using <!-- and -->, consider cssze.us as an
+  example) any whitespaces between '.tile-xy's, its necessary for
+  compatiblity.
 
 LICENSE
 ========================================================================
